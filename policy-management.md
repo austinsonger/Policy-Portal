@@ -120,7 +120,7 @@ If sequencing numbers are included in the policy headings:
    5. If the review is approved, the Security Officer then marks the Issue as Done, or merges the PR into master branch, adding any pertinent notes required.
    6. Policy review is monitored using JIRA or Github Enterprise reporting to assess compliance with above policy.
 
-Additional documentation related to maintenance of policies is outlined in [Roles and Responsibilities](https://apps.us.jupiterone.io/policies/rar/).
+Additional documentation related to maintenance of policies is outlined in Roles and Responsibilities.
 
 
 
