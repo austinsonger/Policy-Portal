@@ -8,15 +8,15 @@
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-In the digital age, cyber attacks are inevitable. At `Placeholder` , we are taking a “zero trust”, “minimal infrastructure” approach to managing risk and information security.
+In the digital age, cyber attacks are inevitable. At `<Company Placeholder>` , we are taking a “zero trust”, “minimal infrastructure” approach to managing risk and information security.
 
 This document describes our guiding principles and aspirations in managing risk and the building blocks of our security model.
 
 ### Policy Statements
 
-`Placeholder`  policy requires that:
+`<Company Placeholder>`  policy requires that:
 
-(a) `Placeholder` 's security program and operations should be designed and implemented with the following objectives and best practices:
+(a) `<Company Placeholder>` 's security program and operations should be designed and implemented with the following objectives and best practices:
 
 * data-centric, cloud-first
 * assume compromise therefore never trust, always verify
@@ -25,11 +25,11 @@ This document describes our guiding principles and aspirations in managing risk 
 * automate whenever possible, the simpler the better, less is more
 * prompt self management and reward good behaviors
 
-(b) Security shall remain a top priority in all aspects of `Placeholder` 's business operations and product development.
+(b) Security shall remain a top priority in all aspects of `<Company Placeholder>` 's business operations and product development.
 
 
 
-#### FA Security Principles
+#### <Company Placeholder> Security Principles
 
 **(1) Data-centric model; zero-trust architecture**
 
@@ -63,7 +63,7 @@ SUMMARY
 
 **(3) Least-privilege temporary access**
 
-Cyber attacks are inevitable. When it comes to preparing for potential attacks, `Placeholder`  security operations take the approach that assumes a compromise can happen at any time, to any device, with little to no indicators. This is also an extension of the “zero trust” model. When building security operations, we carefully perform risk analysis and threat model, to identify potential single point of compromise and to avoid having the “keys to the kingdom”.
+Cyber attacks are inevitable. When it comes to preparing for potential attacks, `<Company Placeholder>`  security operations take the approach that assumes a compromise can happen at any time, to any device, with little to no indicators. This is also an extension of the “zero trust” model. When building security operations, we carefully perform risk analysis and threat model, to identify potential single point of compromise and to avoid having the “keys to the kingdom”.
 
 In other words, compromise of any single system or user or credential, should not easily lead to a broad or full compromise of the entire infrastructure or operations. For example, if an attacker gains access to a admin credential (e.g. Active Directory domain), it should not directly lead to the compromise of all systems and data in the environment.
 
@@ -81,9 +81,9 @@ SUMMARY
 
 **(4) Immutable builds and deploys**
 
-The `Placeholder`  platform leverages a micro-service architecture. This means that the system has been decomposed into numerous small components that can be built and deployed individually. Before these components get deployed to our _production_ environments, we thoroughly test and validate the changes in our _lower_ environments which are completely isolated from production. This allows us to test upcoming changes while ensuring there is no impact to our customers.
+The `<Company Placeholder>`  platform leverages a micro-service architecture. This means that the system has been decomposed into numerous small components that can be built and deployed individually. Before these components get deployed to our _production_ environments, we thoroughly test and validate the changes in our _lower_ environments which are completely isolated from production. This allows us to test upcoming changes while ensuring there is no impact to our customers.
 
-As a particular build of a component progresses through our environments, it is important that the build does not change thus we ensure that each build is immutable. Once an _immutable build_ has been validated in our _lower_ (non-production) environments, we then deploy it to our _production_ environment where the change will be available to `Placeholder`  customers and end-users.
+As a particular build of a component progresses through our environments, it is important that the build does not change thus we ensure that each build is immutable. Once an _immutable build_ has been validated in our _lower_ (non-production) environments, we then deploy it to our _production_ environment where the change will be available to `<Company Placeholder>`  customers and end-users.
 
 Changes to our infrastructure (database schema changes, storage buckets, load balances, DNS entries, etc.) are also described in our source code and deployed to our environments just like the applications. This architectural approach to managing infrastructure is referred to as _infrastructure as code_ and is a key requirement for fully automated deployments with minimal human touch.
 
@@ -99,7 +99,7 @@ SUMMARY
 
 **(5) End-to-end data protection and privacy**
 
-It is of the utmost importance that `Placeholder`  provides for confidentiality (privacy), integrity and availability of its customer's data. Your data is protected with end-to-end encryption, combined with strong access control and key management. We also prohibit our internal employees to access customer data directly in production. So your data remains safe and private at all times. We will never use or share your data without your prior consent.
+It is of the utmost importance that `<Company Placeholder>`  provides for confidentiality (privacy), integrity and availability of its customer's data. Your data is protected with end-to-end encryption, combined with strong access control and key management. We also prohibit our internal employees to access customer data directly in production. So your data remains safe and private at all times. We will never use or share your data without your prior consent.
 
 We are proud to offer our customers data storage peace of mind with a money-back guarantee. We guarantee your private data stored on our platform is always safe and protected from cyberattacks such as ransomware, and we will reimburse you for certain losses of such data due to unauthorized activity in eligible accounts that resulted through no fault of your own.
 
@@ -114,7 +114,7 @@ SUMMARY
 
 **(6) Strong yet flexible user access**
 
-We all know by now that "Passw0rd" makes a terrible password. Access control is so important we must get it right. That's why we leverage tried-and-true technology such as SAML, OAuth, multi-factor authentication, and fine-grained authorization to provide strong yet intuitive access options, both for our internal staff to access business resources and for our customers to access `Placeholder`  platform and services.
+We all know by now that "Passw0rd" makes a terrible password. Access control is so important we must get it right. That's why we leverage tried-and-true technology such as SAML, OAuth, multi-factor authentication, and fine-grained authorization to provide strong yet intuitive access options, both for our internal staff to access business resources and for our customers to access `<Company Placeholder>`  platform and services.
 
 ```
 SUMMARY
@@ -136,7 +136,7 @@ This includes conducting various risk analysis, threat modeling, vulnerability a
 
 At first, this would require significant manual effort and may seem impossible to keep up-to-date. Our goal is to automate security operations, so that this can be achieved programmatically as our operations evolve to become more complex.
 
-Additionally, `Placeholder`  security team will actively monitor threat intelligence in the community, with feeds and information sharing platform such as NH-ISAC to stay abreast of the attacker activities and methodologies.
+Additionally, `<Company Placeholder>`  security team will actively monitor threat intelligence in the community, with feeds and information sharing platform such as NH-ISAC to stay abreast of the attacker activities and methodologies.
 
 ```
 SUMMARY
@@ -150,7 +150,7 @@ SUMMARY
 
 **(8) Centralized and automated operations**
 
-As much as possible, `Placeholder`  security will translate policy and compliance requirements into reusable code for easy implementation and maintenance. This allows us to truly be able to enforce policy and compliance in a fast and scalable way, rather than relying solely on written policies and intermittent manual audits. For example, end-point device policies may be translated into Chef InSpec code and compliance may be enforced through the agent. Access Control policies for production environments are translated into AWS IAM JSON policies and implemented via Terraform code.
+As much as possible, `<Company Placeholder>`  security will translate policy and compliance requirements into reusable code for easy implementation and maintenance. This allows us to truly be able to enforce policy and compliance in a fast and scalable way, rather than relying solely on written policies and intermittent manual audits. For example, end-point device policies may be translated into Chef InSpec code and compliance may be enforced through the agent. Access Control policies for production environments are translated into AWS IAM JSON policies and implemented via Terraform code.
 
 Automation makes it truly possible to centralize security operations, including not only event aggregation and correlation, but also the orchestration and management of previously siloed security controls and remediation efforts.
 
@@ -168,7 +168,7 @@ SUMMARY
 
 **(9) Usable security**
 
-Security benefits from transparency, and should operate as an open-book. This allows the entire organization to take responsibility for and accountability of adopting security best practices. Similar to code reviews and pull requests in the development process, `Placeholder`  security team makes security standards and practices available to all employees for feedback prior to adoption.
+Security benefits from transparency, and should operate as an open-book. This allows the entire organization to take responsibility for and accountability of adopting security best practices. Similar to code reviews and pull requests in the development process, `<Company Placeholder>`  security team makes security standards and practices available to all employees for feedback prior to adoption.
 
 We emphasize on the usability and practicality of security. A security solution or process is not effective, if it is not being used, no matter how good it may be. Having impractical security would only generate noise, provide a false sense of security, and incur unnecessary cost. Nothing is perfect, but we embrace an agile mindset to test and try, and to continuously improve.
 
@@ -202,7 +202,7 @@ SUMMARY
 
 #### Security Architecture
 
-FA developed a security architecture on top of its three main infrastructure environments - Cloud (AWS), DevOps, and workforce collaboration / end-user computing.
+<Company Placeholder> developed a security architecture on top of its three main infrastructure environments - Cloud (AWS), DevOps, and workforce collaboration / end-user computing.
 
 **Architecture Diagrams**
 
@@ -214,7 +214,7 @@ Detailed architecture diagrams of the in-scope networks, endpoints, applications
 
 * Designed for the cloud using true multi-tenant architecture
 * Auto scaling across multiple data centers in multiple regions around the world
-* FA services deployed inside private subnets of Virtual Private Cloud (VPC)
+* <Company Placeholder> services deployed inside private subnets of Virtual Private Cloud (VPC)
 * Comprehensive security and compliance via AWS certifications
 * Ongoing security testing by AWS and AWS customers
 
@@ -240,7 +240,7 @@ Detailed architecture diagrams of the in-scope networks, endpoints, applications
 4. Function
    * Just the application code that runs in a pre-built container
 
-FA strives to leverage functions as the primary building blocks for our platform because:
+<Company Placeholder> strives to leverage functions as the primary building blocks for our platform because:
 
 * functions deploy more quickly than containers and virtual machines
 * AWS automatically scales Lambda functions based on the number of incoming invocations
@@ -252,7 +252,7 @@ FA strives to leverage functions as the primary building blocks for our platform
 
 A set of metrics / KPIs have been defined to assist in the measuring, reporting and optimizing the security program and the controls in place.
 
-A security scorecard is produced every with updates to key metrics of the FA information security program, to measure its adoption and effectiveness.
+A security scorecard is produced every with updates to key metrics of the <Company Placeholder> information security program, to measure its adoption and effectiveness.
 
 The reports and scorecards are maintained by and can be accessed at JupiterOne.
 
@@ -260,13 +260,13 @@ The reports and scorecards are maintained by and can be accessed at JupiterOne.
 
 #### Quality of Service
 
-`Placeholder`  strives to provide a high quality of service to all of its customers. This is accomplished through a security architecture that encompasses all of `Placeholder` 's operations and provides high data confidentiality, integrity, and availability.
+`<Company Placeholder>`  strives to provide a high quality of service to all of its customers. This is accomplished through a security architecture that encompasses all of `<Company Placeholder>` 's operations and provides high data confidentiality, integrity, and availability.
 
-An overview of `Placeholder` 's architecture can be found in [Security Architecture](https://apps.us.jupiterone.io/policies/cp-model-architecture/). `Placeholder`  uses a highly scalable cloud architecture to provide system quality at all times.
+An overview of `<Company Placeholder>` 's architecture can be found in [Security Architecture](https://apps.us.jupiterone.io/policies/cp-model-architecture/). `<Company Placeholder>`  uses a highly scalable cloud architecture to provide system quality at all times.
 
 All systems are monitored and measured in real time as described in [Application Service Event Recovery](https://apps.us.jupiterone.io/policies/cp-bcdr-app/).
 
-`Placeholder`  uses DevOps methodology as described in [Software Development Process](https://apps.us.jupiterone.io/policies/cp-sdlc-dev/) to ensure a smooth delivery process of all systems and applications.
+`<Company Placeholder>`  uses DevOps methodology as described in [Software Development Process](https://apps.us.jupiterone.io/policies/cp-sdlc-dev/) to ensure a smooth delivery process of all systems and applications.
 
 Status for external facing, customer applications and systems is published at .
 

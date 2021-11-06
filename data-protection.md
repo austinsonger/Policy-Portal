@@ -8,13 +8,13 @@
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-\<PlaceHolder> takes the confidentiality and integrity of its customer data very seriously. As stewards and partners of \<PlaceHolder> Customers, we strive to assure data is protected from unauthorized access and that it is available when needed. The following policies drive many of our procedures and technical controls in support of the \<PlaceHolder> mission of data protection.
+`<Company Placeholder>` takes the confidentiality and integrity of its customer data very seriously. As stewards and partners of `<Company Placeholder>` Customers, we strive to assure data is protected from unauthorized access and that it is available when needed. The following policies drive many of our procedures and technical controls in support of the `<Company Placeholder>` mission of data protection.
 
 Production systems that create, receive, store, or transmit Customer data (hereafter "Production Systems") must follow the requirements and guidelines described in this section.
 
 ## Policy Statements
 
-\<PlaceHolder> policy requires that:
+`<Company Placeholder>` policy requires that:
 
 (a) Data must be handled and protected according to its classification requirements and following approved encryption standards, if applicable.
 
@@ -24,7 +24,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 (d) All Production Systems must disable services that are not required to achieve the business purpose or function of the system.
 
-(e) All access to Production Systems must be logged, following the \<PlaceHolder> Auditing Policy.
+(e) All access to Production Systems must be logged, following the `<Company Placeholder>` Auditing Policy.
 
 (f) All Production Systems must have security monitoring enabled, including activity and file integrity monitoring, vulnerability scanning, and/or malware detection, as applicable.
 
@@ -32,31 +32,31 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 ## Data Protection Implementation and Processes
 
-Data is classified and handled according to the \<PlaceHolder> Data Handling Specifications and Data Classification document.
+Data is classified and handled according to the `<Company Placeholder>` Data Handling Specifications and Data Classification document.
 
-Critical, confidential and internal data will be tagged upon creation, if tagging is supported. Each tag maps to a data type defined in the data classification scheme, which then maps to a protection level for encryption, access control, backup, and retention. Data classification may alternatively be identified by its location/repository. For example, source codes in \<PlaceHolder>’s Github Enterprise repos are considered “Internal” by default, even though a tag is not directly applied to each source file.
+Critical, confidential and internal data will be tagged upon creation, if tagging is supported. Each tag maps to a data type defined in the data classification scheme, which then maps to a protection level for encryption, access control, backup, and retention. Data classification may alternatively be identified by its location/repository. For example, source codes in `<Company Placeholder>`’s Github Enterprise repos are considered “Internal” by default, even though a tag is not directly applied to each source file.
 
-Critical and confidential data is always stored and transmitted securely, using approved encryption standards. More details are specified in \<PlaceHolder>’s Data Classification and Handling document.
+Critical and confidential data is always stored and transmitted securely, using approved encryption standards. More details are specified in `<Company Placeholder>`’s Data Classification and Handling document.
 
 All IT systems that process and store sensitive data follow the provisioning process, configuration, change management, patching and anti-malware standards as defined in Configuration and Change Management document.
 
-**Customer/Production Data Protection**
+**Customer/Production Data Protection** 
 
-\<PlaceHolder> hosts on Amazon Web Services in the US-East (Ohio) region by default. Data is replicated across multiple regions for redundancy and disaster recovery.
+`<Company Placeholder>` hosts on Amazon Web Services in the US-East (Ohio) region by default. Data is replicated across multiple regions for redundancy and disaster recovery.
 
-All \<PlaceHolder> employees, systems, and resources adhere to the following standards and processes to reduce the risk of compromise of Production Data:
+All `<Company Placeholder>` employees, systems, and resources adhere to the following standards and processes to reduce the risk of compromise of Production Data:
 
 1. Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
 2. Ensure that confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
-3. Ensure \<PlaceHolder> Customer Production Data is segmented and only accessible to Customer authorized to access data.
-4. All Production Data at rest is stored on encrypted volumes using encryption keys managed by \<PlaceHolder>. Encryption at rest is ensured through the use of automated deployment scripts referenced in Configuration and Change Management.
+3. Ensure `<Company Placeholder>` Customer Production Data is segmented and only accessible to Customer authorized to access data.
+4. All Production Data at rest is stored on encrypted volumes using encryption keys managed by `<Company Placeholder>`. Encryption at rest is ensured through the use of automated deployment scripts referenced in Configuration and Change Management.
 5. Volume encryption keys and machines that generate volume encryption keys are protected from unauthorized access. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
 6. Encrypted volumes use approved cipher algorithms, key strength, and key management process as defined in §12.3.1 above.
 7. Raid volume drives are individually encrypted and assembled on boot requiring a manual input of the key to mount the encrypted volume.
 
 **Access**
 
-\<PlaceHolder> employee access to production is guarded by an approval process and by default is disabled. When access is approved, temporary access is granted that allows access to production. Production access is reviewed by the security team on a case by case basis.
+`<Company Placeholder>` employee access to production is guarded by an approval process and by default is disabled. When access is approved, temporary access is granted that allows access to production. Production access is reviewed by the security team on a case by case basis.
 
 **Separation**
 
@@ -68,11 +68,11 @@ For details on the backup and recovery process, see controls and procedures defi
 
 **Monitoring**
 
-\<PlaceHolder> uses AWS CloudWatch/CloudTrail to monitor the entire cloud service operation. If a system failure and alarm is triggered, key personnel are notified by text, chat, and/or email message in order to take appropriate corrective action. Escalation may be required and there is an on-call rotation for major services when further support is necessary.
+`<Company Placeholder>` uses AWS CloudWatch/CloudTrail to monitor the entire cloud service operation. If a system failure and alarm is triggered, key personnel are notified by text, chat, and/or email message in order to take appropriate corrective action. Escalation may be required and there is an on-call rotation for major services when further support is necessary.
 
-\<PlaceHolder> uses a security agent to monitor production systems. The agents monitor system activities, generate alerts on suspicious activities and report on vulnerability findings to a centralized management console.
+`<Company Placeholder>` uses a security agent to monitor production systems. The agents monitor system activities, generate alerts on suspicious activities and report on vulnerability findings to a centralized management console.
 
-The security agent is installed on all on premise Linux servers. It is also built into Amazon Machine Images (AMIs) for use in \<PlaceHolder> AWS environments.
+The security agent is installed on all on premise Linux servers. It is also built into Amazon Machine Images (AMIs) for use in `<Company Placeholder>` AWS environments.
 
 
 
@@ -88,11 +88,11 @@ Encryption and key management for local disk encryption of on-premise servers an
 
 ## Protecting Data In Transit
 
-1. All external data transmission is encrypted end-to-end using encryption keys managed by \<PlaceHolder>. This includes, but is not limited to, cloud infrastructure and third party vendors and applications.
+1. All external data transmission is encrypted end-to-end using encryption keys managed by `<Company Placeholder>`. This includes, but is not limited to, cloud infrastructure and third party vendors and applications.
 2. Transmission encryption keys and systems that generate keys are protected from unauthorized access. Transmission encryption key materials are protected with access controls, and may only be accessed by privileged accounts.
 3. Transmission encryption keys use a minimum of 4096-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength (e.g., 256-bit AES session keys in the case of IPSec encryption).
 4. Transmission encryption keys are limited to use for one year and then must be regenerated.
-5. For all \<PlaceHolder> APIs, enforcement of authentication, authorization, and auditing is used for all remote systems sending, receiving, or storing data.
+5. For all `<Company Placeholder>` APIs, enforcement of authentication, authorization, and auditing is used for all remote systems sending, receiving, or storing data.
 6. System logs of all transmissions of Production Data access are kept. These logs must be available for audit.
 
 **Encryption of Data in Transit**
@@ -111,7 +111,7 @@ Data in Use, sometimes known as Data in Process, refers to active data being pro
 
 Protection of data in use relies on application layer controls and system access controls. See the Production Security / SDLC and Access sections for details.
 
-\<PlaceHolder> applications implement logical account-level data segregation to protect data in a multi-tenancy deployment. In addition, \<PlaceHolder> applications may incorporate advanced security features such as Runtime Application Self Protection (RASP) modules and Attribute Based Access Control (ABAC) for protection of data in use.
+`<Company Placeholder>` applications implement logical account-level data segregation to protect data in a multi-tenancy deployment. In addition, `<Company Placeholder>` applications may incorporate advanced security features such as Runtime Application Self Protection (RASP) modules and Attribute Based Access Control (ABAC) for protection of data in use.
 
 
 
@@ -121,9 +121,9 @@ Protection of data in use relies on application layer controls and system access
 
 ## Encryption Key Management
 
-\<PlaceHolder> uses AWS Key Management Service (KMS) for encryption key management.
+`<Company Placeholder>` uses AWS Key Management Service (KMS) for encryption key management.
 
-* KMS keys are unique to \<PlaceHolder> environments and services.
+* KMS keys are unique to `<Company Placeholder>` environments and services.
 * KMS keys are automatically rotated yearly.
 
 
@@ -132,7 +132,7 @@ Protection of data in use relies on application layer controls and system access
 
 ## Certificate Management
 
-\<PlaceHolder> uses AWS Certificate Manager (ACM) and LetsEncrypt for certificate management.
+`<Company Placeholder>` uses AWS Certificate Manager (ACM) and LetsEncrypt for certificate management.
 
 * Certificates are renewed automatically.
 * Security team monitors the certificates for expiration, potential compromise and use/validity. Certificate revocation process is invoked if the certificate is no longer needed or upon discovery of potential compromise.
@@ -141,7 +141,7 @@ Protection of data in use relies on application layer controls and system access
 
 ## Data Integrity Protection
 
-When appropriate, \<PlaceHolder> engineering should implement "Versioning" and "Lifecycle", or equivalent data management mechanism, such that direct edit and delete actions are not allowed on the data to prevent accidental or malicious overwrite. This protects against human errors and cyberattacks such as ransomware.
+When appropriate, `<Company Placeholder>` engineering should implement "Versioning" and "Lifecycle", or equivalent data management mechanism, such that direct edit and delete actions are not allowed on the data to prevent accidental or malicious overwrite. This protects against human errors and cyberattacks such as ransomware.
 
 In AWS, the IAM and S3 bucket policy in production will be implemented accordingly when the environments are configured. When changes must be made, a new version is created instead of editing and overwriting existing data.
 

@@ -8,15 +8,15 @@
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-This policy outlines the requirements and controls/procedures \<PlaceHolder> has implemented to manage the end-to-end data lifecycle, from data creation/acquisition to retention and deletion.
+This policy outlines the requirements and controls/procedures `<Company Placeholder>` has implemented to manage the end-to-end data lifecycle, from data creation/acquisition to retention and deletion.
 
 Additionally, this policy outlines requirements and procedures to create and maintain retrievable exact copies of electronic protected health information(ePHI), PII and other critical customer/business data.
 
-Data backup is an important part of the day-to-day operations of \<PlaceHolder>. To protect the confidentiality, integrity, and availability of sensitive and critical data, both for \<PlaceHolder> and \<PlaceHolder> Customers, complete backups are done daily to assure that data remains available when it needed and in case of a disaster.
+Data backup is an important part of the day-to-day operations of `<Company Placeholder>`. To protect the confidentiality, integrity, and availability of sensitive and critical data, both for `<Company Placeholder>` and `<Company Placeholder>` Customers, complete backups are done daily to assure that data remains available when it needed and in case of a disaster.
 
 ## Policy Statements
 
-\<PlaceHolder> policy requires that
+`<Company Placeholder>` policy requires that
 
 (a) Data should be classified at time of creation or acquisition according to the `<PlaceHolder>` data classification model, by labeling or tagging the data.
 
@@ -24,7 +24,7 @@ Data backup is an important part of the day-to-day operations of \<PlaceHolder>.
 
 (c) All business data should be stored or replicated to a company controlled repository, including data on end-user computing systems.
 
-(d) Data must be backed up according to its level defined in \<PlaceHolder> data classification.
+(d) Data must be backed up according to its level defined in `<Company Placeholder>` data classification.
 
 (e) Data backup must be validated for integrity.
 
@@ -32,7 +32,7 @@ Data backup is an important part of the day-to-day operations of \<PlaceHolder>.
 
 * Data and records belonging to `<PlaceHolder>` platform customer must be retained per `<PlaceHolder>` product terms and conditions and/or specific contractual agreements.
 
-(g) By default, all security documentation and audit trails are kept for a minimum of seven years, unless otherwise specified by \<PlaceHolder> data classification, specific regulations or contractual agreement.
+(g) By default, all security documentation and audit trails are kept for a minimum of seven years, unless otherwise specified by `<Company Placeholder>` data classification, specific regulations or contractual agreement.
 
 
 
@@ -40,7 +40,7 @@ Data backup is an important part of the day-to-day operations of \<PlaceHolder>.
 
 ## Data Classification Model
 
-\<PlaceHolder> defines the following four classifications of data:
+`<Company Placeholder>` defines the following four classifications of data:
 
 * **Critical**
 * **Confidential**
@@ -108,7 +108,7 @@ _Example Internal Data Types_ includes
 
 ## Data Handling Requirements Matrix
 
-Requirements for data handling, such as the need for encryption and the duration of retention, are defined according to the \<PlaceHolder> Data Classifications.
+Requirements for data handling, such as the need for encryption and the duration of retention, are defined according to the `<Company Placeholder>` Data Classifications.
 
 | Data             | Labeling or Tagging | Segregated Storage | Endpoint Storage | Encrypt At Rest | Encrypt In Transit | Encrypt In Use | Controlled Access                                                                     | Monitoring | Destruction at Disposal | Retention Period                                                       | Backup Recovery |
 | ---------------- | ------------------- | ------------------ | ---------------- | --------------- | ------------------ | -------------- | ------------------------------------------------------------------------------------- | ---------- | ----------------------- | ---------------------------------------------------------------------- | --------------- |
@@ -119,13 +119,13 @@ Requirements for data handling, such as the need for encryption and the duration
 
 N/R = Not Required
 
-† customer-owned data is stored for as long as they remain as a \<PlaceHolder> customer, or as required by regulations, whichever is longer. Customer may request their data to be deleted at any time; unless retention is required by law.
+† customer-owned data is stored for as long as they remain as a `<Company Placeholder>` customer, or as required by regulations, whichever is longer. Customer may request their data to be deleted at any time; unless retention is required by law.
 
 
 
 ## Data Inventory and Lifecycle Management
 
-\<PlaceHolder> Security team uses an automated system to query across our cloud-based infrastructure, including but is not limited to AWS, to obtain detailed records of all data repositories, including but not limited to:
+`<Company Placeholder>` Security team uses an automated system to query across our cloud-based infrastructure, including but is not limited to AWS, to obtain detailed records of all data repositories, including but not limited to:
 
 * AWS S3 repositories
 * AWS RDS and DynamoDB instances
@@ -134,11 +134,11 @@ N/R = Not Required
 * Office 365
 * On-premise storage systems (manually maintained)
 
-The records are stored in a database system maintained by \<PlaceHolder> security team. Records are tagged with owner/project and classification when applicable. All records are kept up to date via automation. The system is also designed to track movement of data and update/alert accordingly.
+The records are stored in a database system maintained by `<Company Placeholder>` security team. Records are tagged with owner/project and classification when applicable. All records are kept up to date via automation. The system is also designed to track movement of data and update/alert accordingly.
 
 **AWS S3 Object Lifecycle Management**
 
-The \<PlaceHolder> platform will automatically adjust the storage class for certain types of data based on its usage pattern and age. This allows the \<PlaceHolder> platform to provide competitive pricing while still allowing the customer to store large amounts of data.
+The `<Company Placeholder>` platform will automatically adjust the storage class for certain types of data based on its usage pattern and age. This allows the `<Company Placeholder>` platform to provide competitive pricing while still allowing the customer to store large amounts of data.
 
 AWS provides the following [storage classes](https://aws.amazon.com/s3/storage-classes/):
 
@@ -146,9 +146,9 @@ AWS provides the following [storage classes](https://aws.amazon.com/s3/storage-c
 * Infrequent Access
 * Archive (Amazon Glacier)
 
-S3 lifecycle policies are used to manage the storage class for certain types of data. In most cases, the \<PlaceHolder> platform automatically adjusts the storage class but we may give customers the ability to adjust the storage class manually to meet their pricing or performance needs.
+S3 lifecycle policies are used to manage the storage class for certain types of data. In most cases, the `<Company Placeholder>` platform automatically adjusts the storage class but we may give customers the ability to adjust the storage class manually to meet their pricing or performance needs.
 
-\<PlaceHolder> performs regular full backups of all production data. We leverage S3 lifecycle policies to automatically remove old backup data. This allows older data to "age out" instead of having to explicitly delete it. S3 lifecycle policies are also used to adjust the storage class of data backups based on the age of the backup.
+`<Company Placeholder>` performs regular full backups of all production data. We leverage S3 lifecycle policies to automatically remove old backup data. This allows older data to "age out" instead of having to explicitly delete it. S3 lifecycle policies are also used to adjust the storage class of data backups based on the age of the backup.
 
 **Other Business Data**
 
@@ -159,14 +159,14 @@ All internal and confidential business records and documents, such as product pl
   * Github Enterprise (source code),
   * (HR),
   * (expense reports), etc.
-* Unstructured business documents such as Word documents, Excel spreadsheets and PowerPoint presentations are stored on \<PlaceHolder> internal file share.
+* Unstructured business documents such as Word documents, Excel spreadsheets and PowerPoint presentations are stored on `<Company Placeholder>` internal file share.
 * Confidential business documents/records are be stored in encrypted form and with access control enabled on a need-to-know basis.
 
 **Transient Data Managemet**
 
 Data may be temporarily stored by a system for processing. For example, a storage device may be used to stage temp/raw files prior to being uploaded to the production environment in AWS. These transient data repositories are not intended for long term storage, and data is purged immediately after use.
 
-_\<PlaceHolder> currently does NOT use transient storage for any sensitive data._
+_`<Company Placeholder>` currently does NOT use transient storage for any sensitive data._
 
 
 
@@ -176,19 +176,19 @@ _\<PlaceHolder> currently does NOT use transient storage for any sensitive data.
 
 **Customer Data**
 
-\<PlaceHolder> stores data in a secure production account in AWS, using a combination of S3, DynamoDB, and Aurora SQL databases. By default, Amazon S3 provides durable infrastructure to store important data and is designed for durability of 99.999999999% of objects.
+`<Company Placeholder>` stores data in a secure production account in AWS, using a combination of S3, DynamoDB, and Aurora SQL databases. By default, Amazon S3 provides durable infrastructure to store important data and is designed for durability of 99.999999999% of objects.
 
 All data store services and platforms in use are HIPAA compliant.
 
-\<PlaceHolder> performs automatic backup of all customer and system data to protect against catastrophic loss due to unforeseen events that impact the entire system. An automated process will back up all data to a separate AWS region in the same country (e.g. US East to US West). By default, data will be backed up daily. The backups are encrypted in the same way as live production data.
+`<Company Placeholder>` performs automatic backup of all customer and system data to protect against catastrophic loss due to unforeseen events that impact the entire system. An automated process will back up all data to a separate AWS region in the same country (e.g. US East to US West). By default, data will be backed up daily. The backups are encrypted in the same way as live production data.
 
-Customers can also utilize the \<PlaceHolder> Application Programming Interface (API) to extract and store their data elsewhere. Standard API usage fees will apply.
+Customers can also utilize the `<Company Placeholder>` Application Programming Interface (API) to extract and store their data elsewhere. Standard API usage fees will apply.
 
 **Source code**
 
-\<PlaceHolder> stores its source in git repositories hosted by Github Enterprise.
+`<Company Placeholder>` stores its source in git repositories hosted by Github Enterprise.
 
-Source code repositories are backed up to \<PlaceHolder>’s AWS S3 infrastructure account on a weekly basis with a common set of configuration for each repository to enforce SDLC processes.
+Source code repositories are backed up to `<Company Placeholder>`’s AWS S3 infrastructure account on a weekly basis with a common set of configuration for each repository to enforce SDLC processes.
 
 In the event that Github Enterprise suffers a catastrophic loss of data, source code will be restored from the backups in AWS S3.
 
@@ -196,7 +196,7 @@ Because AWS and Github Enterprise can both host git repositories, we are able to
 
 **Business records and documents**
 
-Each data owner/creator is responsible for maintaining a backup copy of their business files local on their laptop/workstation to the appropriate location on \<PlaceHolder> SharePoint team site. Examples of business files include, but are not limited to:
+Each data owner/creator is responsible for maintaining a backup copy of their business files local on their laptop/workstation to the appropriate location on `<Company Placeholder>` SharePoint team site. Examples of business files include, but are not limited to:
 
 * Documents (e.g. product specs, business plans)
 * Presentations
@@ -205,7 +205,7 @@ Each data owner/creator is responsible for maintaining a backup copy of their bu
 * Meeting notes/recordings
 * Important records (e.g. approval notes)
 
-Unless the local workstation/device has access to **Critical** data, backups of user workstations/devices are self managed by the device owner. Backups may be stored on an external hard drive or using a cloud service such as iCloud if and only if the data is both encrypted and password protected (passwords must meet \<PlaceHolder> requirements).
+Unless the local workstation/device has access to **Critical** data, backups of user workstations/devices are self managed by the device owner. Backups may be stored on an external hard drive or using a cloud service such as iCloud if and only if the data is both encrypted and password protected (passwords must meet `<Company Placeholder>` requirements).
 
 
 
@@ -213,11 +213,11 @@ Unless the local workstation/device has access to **Critical** data, backups of 
 
 **For Platform Customers**
 
-Despite not being a requirement within HIPAA, \<PlaceHolder> understands and appreciates the importance of health data retention. Acting as a subcontractor/service provider, and at times a business associate, \<PlaceHolder> is not directly responsible for health and medical records retention as set forth by each state.
+Despite not being a requirement within HIPAA, `<Company Placeholder>` understands and appreciates the importance of health data retention. Acting as a subcontractor/service provider, and at times a business associate, `<Company Placeholder>` is not directly responsible for health and medical records retention as set forth by each state.
 
-\<PlaceHolder> has created and implemented the following procedures to make it easier for \<PlaceHolder> Customers to support data retention laws.
+`<Company Placeholder>` has created and implemented the following procedures to make it easier for `<Company Placeholder>` Customers to support data retention laws.
 
-Some types of customer data may be automatically transitioned to a storage class that is appropriate for archival or infrequent usage. The guidelines for transitioning data to different storage classes is at the discretion of \<PlaceHolder>.
+Some types of customer data may be automatically transitioned to a storage class that is appropriate for archival or infrequent usage. The guidelines for transitioning data to different storage classes is at the discretion of `<Company Placeholder>`.
 
 Customer data is retained for as long as the account is in active status. Data enters an expired state when the account is voluntarily closed. Expired account data will be retained for 14 days. After 14 days, the project/account and related data will be removed. Customers that wish to voluntarily close their account should download their data manually or via the API prior to closing their account.
 
@@ -225,7 +225,7 @@ If an account is involuntarily suspended, then there is a 14 day grace period du
 
 **For patient data as as a Covered Entity**
 
-\<PlaceHolder> is NOT a covered entity. Should we become a covered entity in the future, we would be required by law to retain healthcare records for up to 10 years beyond when service was last provided when providing healthcare services directly to patients. Any patient data that is marked for deletion will be archived for the time required by law. This archived data can be retrieved by the customer as long as it is retrieved within 10 years from date of last service.
+`<Company Placeholder>` is NOT a covered entity. Should we become a covered entity in the future, we would be required by law to retain healthcare records for up to 10 years beyond when service was last provided when providing healthcare services directly to patients. Any patient data that is marked for deletion will be archived for the time required by law. This archived data can be retrieved by the customer as long as it is retrieved within 10 years from date of last service.
 
 
 

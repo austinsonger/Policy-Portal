@@ -16,7 +16,7 @@ This policy establishes the scope, objectives, and procedures of `Placeholder` '
 
 ### Policy Statements
 
-FA policy requires that:
+`<Company Placeholder>` policy requires that:
 
 (a) A thorough risk assessment must be conducted to evaluate the potential threats and vulnerabilities to the confidentiality, integrity, and availability of sensitive, confidential and proprietary electronic information it stores, transmits, and/or processes.
 
@@ -65,7 +65,7 @@ Risk assessments are done throughout product life cycles:
 3. Protect against any reasonably anticipated uses or disclosures of Customer data and/or sensitive data that are not permitted or required; and
 4. Ensure compliance by all workforce members.
 
-In addition, FA risk management process requires that:
+In addition, `<Company Placeholder>` risk management process requires that:
 
 1. Any risk remaining (residual) after other risk controls have been applied, requires sign off by the senior management and `Placeholder's`  Security Officer.
 2. All `Placeholder's`  workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation, as outlined in the `Placeholder's`  Roles Policy.
@@ -96,8 +96,8 @@ The two principle components of the risk management process - risk assessment an
 The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact should they occur. The output of this process helps to identify appropriate controls for reducing or eliminating risk.
 
 * Step 1. System Characterization
-  * The first step in assessing risk is to define the scope of the effort. To do this, identify where sensitive data is received, maintained, processed, or transmitted. Using information-gathering techniques, the FA Platform boundaries are identified.
-  * Output - Characterization of the FA Platform system assessed, a good picture of the Platform environment, and delineation of Platform boundaries.
+  * The first step in assessing risk is to define the scope of the effort. To do this, identify where sensitive data is received, maintained, processed, or transmitted. Using information-gathering techniques, the `<Company Placeholder>` Platform boundaries are identified.
+  * Output - Characterization of the `<Company Placeholder>` Platform system assessed, a good picture of the Platform environment, and delineation of Platform boundaries.
 * Step 2. Threat Identification
   * Potential threats (the potential for threat-sources to successfully exercise a particular vulnerability) are identified and documented. All potential threat-sources through the review of historical incidents and data from intelligence agencies, the government, etc., to help generate a list of potential threats.
   * Output - A threat list containing a list of threat-sources that could exploit Platform vulnerabilities.
@@ -111,7 +111,7 @@ The intent of completing a risk assessment is to determine potential threats and
   * Determine the overall likelihood rating that indicates the probability that a vulnerability could be exploited by a threat-source given the existing or planned security controls.
   * Output - Likelihood rating of low (.1), medium (.5), or high (1). Refer to the NIST SP 800-30 definitions of low, medium, and high.
 * Step 6. Impact Analysis
-  * Determine the level of adverse impact that would result from a threat successfully exploiting a vulnerability. Factors of the data and systems to consider should include the importance to FA's mission; sensitivity and criticality (value or importance); costs associated; loss of confidentiality, integrity, and availability of systems and data.
+  * Determine the level of adverse impact that would result from a threat successfully exploiting a vulnerability. Factors of the data and systems to consider should include the importance to `<Company Placeholder>`'s mission; sensitivity and criticality (value or importance); costs associated; loss of confidentiality, integrity, and availability of systems and data.
   * Output - Magnitude of impact rating of low (10), medium (50), or high (100). Refer to the NIST SP 800-30 definitions of low, medium, and high.
 * Step 7. Risk Determination
   * Establish a risk level. By multiplying the ratings from the likelihood determination and impact analysis, a risk level is determined. This represents the degree or level of risk to which an IT system, facility, or procedure might be exposed if a given vulnerability were exercised. The risk rating also presents actions that senior management must take for each risk level.
@@ -139,7 +139,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
   * Determine the extent to which a control is cost-effective. Compare the benefit (e.g., risk reduction) of applying a control with its subsequent cost of application. Controls that are not cost-effective are also identified during this step. Analyzing each control or set of controls in this manner, and prioritizing across all controls being considered, can greatly aid in the decision-making process.
   * Output - Documented cost-benefit analysis of either implementing or not implementing each specific control
 * Step 4. Select Control(s)
-  * Taking into account the information and results from previous steps, FA's mission, and other important criteria, the Risk Management Team determines the best control(s) for reducing risks to the information systems and to data confidentiality, integrity, and availability. These controls may consist of a mix of administrative, physical, and/or technical safeguards.
+  * Taking into account the information and results from previous steps, `<Company Placeholder>`'s mission, and other important criteria, the Risk Management Team determines the best control(s) for reducing risks to the information systems and to data confidentiality, integrity, and availability. These controls may consist of a mix of administrative, physical, and/or technical safeguards.
   * Output - Selected control(s)
 * Step 5. Assign Responsibility
   * Identify the workforce members with the skills necessary to implement each of the specific controls outlined in the previous step, and assign their responsibilities. Also identify the equipment, training and other resources needed for the successful implementation of controls. Resources may include time, money, equipment, etc.
@@ -166,7 +166,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
 
 ## Risk Registry
 
-FA Security team maintains a registry of risks, captured and kept updated
+`<Company Placeholder>` Security team maintains a registry of risks, captured and kept updated
 
 * in a document on company SharePoint; and/or
 * in the security operations tool/database.

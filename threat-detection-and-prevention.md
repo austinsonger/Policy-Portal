@@ -8,11 +8,11 @@
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-In order to preserve the integrity of data that \<PlaceHolder> stores, processes, or transmits for Customers, \<PlaceHolder> implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. This include threat detection and prevention at both the network and host level, as well as threat intelligence monitoring.
+In order to preserve the integrity of data that `<Company Placeholder>` stores, processes, or transmits for Customers, `<Company Placeholder>` implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. This include threat detection and prevention at both the network and host level, as well as threat intelligence monitoring.
 
 ### Policy Statements
 
-\<PlaceHolder> policy requires that:
+`<Company Placeholder>` policy requires that:
 
 (a) All critical systems, assets and environments must implement realtime threat detection or prevention.
 
@@ -28,7 +28,7 @@ In order to preserve the integrity of data that \<PlaceHolder> stores, processes
    * The malware signature database is kept up to date, changes are pushed continuously.
    * Logs of virus scans and alerts are maintained according to the requirements outlined in System Auditing.
 2. Detected malware is evaluated and removed following the established incident response process.
-3. All systems are to only be used for \<PlaceHolder> business needs.
+3. All systems are to only be used for `<Company Placeholder>` business needs.
 
 
 
@@ -46,13 +46,13 @@ Firewall protection is implemented at the following layers
 
 **Intrusion Detection for On-Premise Internal Networks**
 
-* \<PlaceHolder> leverages AWS GuardDuty and Cisco Meraki for network security of its on-premise environments.
+* `<Company Placeholder>` leverages AWS GuardDuty and Cisco Meraki for network security of its on-premise environments.
 * AWS GuardDuty and Cisco Meraki features stateful firewall inspection and intrusion detection/prevention (IDS/IPS) of applicable incoming and outgoing network traffic. Attacks and suspicious network activities are blocked automatically.
-* \<PlaceHolder> IT manager is responsible for configuring the firewall and IDS/IPS rules and review the configuration as least quarterly.
+* `<Company Placeholder>` IT manager is responsible for configuring the firewall and IDS/IPS rules and review the configuration as least quarterly.
 
 **Intrusion Detection in AWS Cloud Environments**
 
-\<PlaceHolder> implemented a real-time threat detection solution by monitoring AWS Cloudtrail events and/or VPC flow logs.
+`<Company Placeholder>` implemented a real-time threat detection solution by monitoring AWS Cloudtrail events and/or VPC flow logs.
 
 * Cloudtrail events are monitored by **AWS GuardDuty and Cisco Meraki**
 * VPC flow logs are sent to and analyzed by **AWS GuardDuty and Cisco Meraki**.
@@ -92,9 +92,9 @@ Security events and alerts are aggregated to and correlated by one or both of th
 
 **NH-ISAC**
 
-\<PlaceHolder> is an active member of the [National Health Information Sharing and Analysis Center (NH-ISAC)](https://nhisac.org).
+`<Company Placeholder>` is an active member of the [National Health Information Sharing and Analysis Center (NH-ISAC)](https://nhisac.org).
 
-\<PlaceHolder> Security team is subscribed to receive threat alerts from NH-ISAC.
+`<Company Placeholder>` Security team is subscribed to receive threat alerts from NH-ISAC.
 
 **Intelligence Feeds**
 

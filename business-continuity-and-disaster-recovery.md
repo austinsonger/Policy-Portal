@@ -8,15 +8,15 @@
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-The \<PlaceHolder> Contingency Plan establishes procedures to recover \<PlaceHolder> following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the \<PlaceHolder> Security Officer and Privacy Officer.
+The `<Company Placeholder>` Contingency Plan establishes procedures to recover `<Company Placeholder>` following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the `<Company Placeholder>` Security Officer and Privacy Officer.
 
-**HIPAA:** This \<PlaceHolder> Contingency Plan has been developed as required under the Office of Management and Budget (OMB) Circular A-130, Management of Federal Information Resources, Appendix III, November 2000, and the Health Insurance Portability and Accountability Act (HIPAA) Final Security Rule, Section §164.308(a)(7), which requires the establishment and implementation of procedures for responding to events that damage systems containing electronic protected health information.
+**HIPAA:** This `<Company Placeholder>` Contingency Plan has been developed as required under the Office of Management and Budget (OMB) Circular A-130, Management of Federal Information Resources, Appendix III, November 2000, and the Health Insurance Portability and Accountability Act (HIPAA) Final Security Rule, Section §164.308(a)(7), which requires the establishment and implementation of procedures for responding to events that damage systems containing electronic protected health information.
 
-**NIST:** This \<PlaceHolder> Contingency Plan is created under the legislative requirements set forth in the Federal Information Security Management Act (FISMA) of 2002 and the guidelines established by the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-34, titled "Contingency Planning Guide for Information Technology Systems" dated June 2002.
+**NIST:** This `<Company Placeholder>` Contingency Plan is created under the legislative requirements set forth in the Federal Information Security Management Act (FISMA) of 2002 and the guidelines established by the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-34, titled "Contingency Planning Guide for Information Technology Systems" dated June 2002.
 
 ### Policy Statements
 
-\<PlaceHolder> policy requires that:
+`<Company Placeholder>` policy requires that:
 
 (a) A plan and process for business continuity and disaster recovery (BCDR), including the backup and recovery of systems and data, must be defined and documented.
 
@@ -34,22 +34,22 @@ The following objectives have been established for this plan:
    * _Notification/Activation phase_ to detect and assess damage and to activate the plan;
    * _Recovery phase_ to restore temporary IT operations and recover damage done to the original system;
    * _Reconstitution phase_ to restore IT system processing capabilities to normal operations.
-2. Identify the activities, resources, and procedures needed to carry out \<PlaceHolder> processing requirements during prolonged interruptions to normal operations.
-3. Identify and define the impact of interruptions to \<PlaceHolder> systems.
-4. Assign responsibilities to designated personnel and provide guidance for recovering \<PlaceHolder> during prolonged periods of interruption to normal operations.
-5. Ensure coordination with other \<PlaceHolder> staff who will participate in the contingency planning strategies.
+2. Identify the activities, resources, and procedures needed to carry out `<Company Placeholder>` processing requirements during prolonged interruptions to normal operations.
+3. Identify and define the impact of interruptions to `<Company Placeholder>` systems.
+4. Assign responsibilities to designated personnel and provide guidance for recovering `<Company Placeholder>` during prolonged periods of interruption to normal operations.
+5. Ensure coordination with other `<Company Placeholder>` staff who will participate in the contingency planning strategies.
 6. Ensure coordination with external points of contact and vendors who will participate in the contingency planning strategies.
 
 Example of the types of disasters that would initiate this plan are natural disaster, political disturbances, man made disaster, external human threats, and internal malicious activities.
 
-\<PlaceHolder> defined two categories of systems from a disaster recovery perspective.
+`<Company Placeholder>` defined two categories of systems from a disaster recovery perspective.
 
 1. _Critical Systems_. These systems host production application servers/services and database servers/services or are required for functioning of systems that host production applications and data. These systems, if unavailable, affect the integrity of data and must be restored, or have a process begun to restore them, immediately upon becoming unavailable.
 2. _Non-critical Systems_. These are all systems not considered critical by definition above. These systems, while they may affect the performance and overall security of critical systems, do not prevent Critical systems from functioning and being accessed appropriately. These systems are restored at a lower priority than critical systems.
 
 **Line of Succession**
 
-The following order of succession to ensure that decision-making authority for the \<PlaceHolder> Contingency Plan is uninterrupted. The Chief Operating Officer (COO) is responsible for ensuring the safety of personnel and the execution of procedures documented within this \<PlaceHolder> Contingency Plan. The Head of Engineering is responsible for the recovery of \<PlaceHolder> technical environments. If the COO or Head of Engineering is unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO shall function as that authority or choose an alternative delegate. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
+The following order of succession to ensure that decision-making authority for the `<Company Placeholder>` Contingency Plan is uninterrupted. The Chief Operating Officer (COO) is responsible for ensuring the safety of personnel and the execution of procedures documented within this `<Company Placeholder>` Contingency Plan. The Head of Engineering is responsible for the recovery of `<Company Placeholder>` technical environments. If the COO or Head of Engineering is unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO shall function as that authority or choose an alternative delegate. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
 * John Doe, COO: johndoe@Example.com
 * John Doe, Head of Engineering: johndoe@Example.com
@@ -57,16 +57,16 @@ The following order of succession to ensure that decision-making authority for t
 
 **Response Teams and Responsibilities**
 
-The following teams have been developed and trained to respond to a contingency event affecting \<PlaceHolder> infrastructure and systems.
+The following teams have been developed and trained to respond to a contingency event affecting `<Company Placeholder>` infrastructure and systems.
 
-1. **IT** is responsible for recovery of the \<PlaceHolder> hosted environment, network devices, and all servers. The team includes personnel responsible for the daily IT operations and maintenance. The team leader is the IT Manager who reports to the COO.
-2. **HR & Facilities** is responsible for ensuring the physical safety of all \<PlaceHolder> personnel and environmental safety at each \<PlaceHolder> physical location. The team members also include site leads at each \<PlaceHolder> work site. The team leader is the Facilities Manager who reports to the COO.
+1. **IT** is responsible for recovery of the `<Company Placeholder>` hosted environment, network devices, and all servers. The team includes personnel responsible for the daily IT operations and maintenance. The team leader is the IT Manager who reports to the COO.
+2. **HR & Facilities** is responsible for ensuring the physical safety of all `<Company Placeholder>` personnel and environmental safety at each `<Company Placeholder>` physical location. The team members also include site leads at each `<Company Placeholder>` work site. The team leader is the Facilities Manager who reports to the COO.
 3. **DevOps** is responsible for assuring all applications, web services, platform and their supporting infrastructure in the Cloud. The team is also responsible for testing re-deployments and assessing damage to the environment. The team leader is the Head of Engineering.
-4. **Security** is responsible for assessing and responding to all cybersecurity related incidents according to \<PlaceHolder> Incident Response policy and procedures. The security team shall assist the above teams in recovery as needed in non-cybersecurity events. The team leader is the Security Officer.
+4. **Security** is responsible for assessing and responding to all cybersecurity related incidents according to `<Company Placeholder>` Incident Response policy and procedures. The security team shall assist the above teams in recovery as needed in non-cybersecurity events. The team leader is the Security Officer.
 
 Members of above teams must maintain local copies of the contact information of the BCDR succession team. Additionally, the team leads must maintain a local copy of this policy in the event Internet access is not available during a disaster scenario.
 
-All executive leadership shall be informed of any and all contingency events. Current members of \<PlaceHolder> leadership team include the Security Officer.
+All executive leadership shall be informed of any and all contingency events. Current members of `<Company Placeholder>` leadership team include the Security Officer.
 
 
 
@@ -76,7 +76,7 @@ All executive leadership shall be informed of any and all contingency events. Cu
 
 **Notification and Activation Phase**
 
-This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to \<PlaceHolder>. Based on the assessment of the Event, sometimes according to the \<PlaceHolder> Incident Response Policy, the Contingency Plan may be activated by either the COO or Head of Engineering. The Contingency Plan may also be activated by the Security Officer in the event of a cyber disaster.
+This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to `<Company Placeholder>`. Based on the assessment of the Event, sometimes according to the `<Company Placeholder>` Incident Response Policy, the Contingency Plan may be activated by either the COO or Head of Engineering. The Contingency Plan may also be activated by the Security Officer in the event of a cyber disaster.
 
 The notification sequence is listed below:
 
@@ -87,10 +87,10 @@ The notification sequence is listed below:
   * The COO is to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
   * Alternate Assessment Procedures:
   * Upon notification, the COO is to follow the procedures for damage assessment with the Response Teams.
-* The \<PlaceHolder> Contingency Plan is to be activated if one or more of the following criteria are met:
-  * \<PlaceHolder> will be unavailable for more than 48 hours.
+* The `<Company Placeholder>` Contingency Plan is to be activated if one or more of the following criteria are met:
+  * `<Company Placeholder>` will be unavailable for more than 48 hours.
   * On-premise hosting facility or cloud infrastructure service is damaged and will be unavailable for more than 24 hours.
-  * Other criteria, as appropriate and as defined by \<PlaceHolder>.
+  * Other criteria, as appropriate and as defined by `<Company Placeholder>`.
 * If the plan is to be activated, the COO is to notify and inform team members of the details of the event and if relocation is required.
 * Upon notification from the COO, group leaders and managers are to notify their respective teams. Team members are to be informed of all applicable information and prepared to respond and relocate if necessary.
 * The COO is to notify the hosting facility partners that a contingency event has been declared and to ship the necessary materials (as determined by damage assessment) to the alternate site.
@@ -99,11 +99,11 @@ The notification sequence is listed below:
 
 **Recovery Phase**
 
-This section provides procedures for recovering \<PlaceHolder> infrastructure and operations at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities.
+This section provides procedures for recovering `<Company Placeholder>` infrastructure and operations at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities.
 
 Procedures are outlined per team required. Each procedure should be executed in the sequence it is presented to maintain efficient operations.
 
-Recovery Goal: The goal is to rebuild \<PlaceHolder> infrastructure to a production state.
+Recovery Goal: The goal is to rebuild `<Company Placeholder>` infrastructure to a production state.
 
 The tasks outlines below are not sequential and some can be run in parallel.
 
@@ -120,13 +120,13 @@ The tasks outlines below are not sequential and some can be run in parallel.
 
 **Reconstitution Phase**
 
-This section discusses activities necessary for restoring full \<PlaceHolder> operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. If necessary, when the hosted data center at the original or new site has been restored, \<PlaceHolder> operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
+This section discusses activities necessary for restoring full `<Company Placeholder>` operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. If necessary, when the hosted data center at the original or new site has been restored, `<Company Placeholder>` operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
 
 1. Original or New Site Restoration
    * Repeat steps 5-9 in the Recovery Phase at the original or new site / environment.
    * Restoration of Original site is unnecessary for cloud environments, except when required for forensic purpose.
 2. Plan Deactivation
-   * If the \<PlaceHolder> environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the \<PlaceHolder> Media Disposal Policy.
+   * If the `<Company Placeholder>` environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the `<Company Placeholder>` Media Disposal Policy.
 
 
 
@@ -150,39 +150,39 @@ The primary objective of the technical test is to ensure the communication proce
 
 #### Work Site Recovery
 
-In the event a \<PlaceHolder> facility is not functioning due to a disaster, employees will work from home or locate to a secondary site with Internet access, until the physical recovery of the facility impacted is complete. The recovery shall be performed by the facility management firm under contract with \<PlaceHolder>, and coordinated by the Facility Manager and/or the Site Lead.
+In the event a `<Company Placeholder>` facility is not functioning due to a disaster, employees will work from home or locate to a secondary site with Internet access, until the physical recovery of the facility impacted is complete. The recovery shall be performed by the facility management firm under contract with `<Company Placeholder>`, and coordinated by the Facility Manager and/or the Site Lead.
 
-\<PlaceHolder>’s software development organization has the ability to work from any location with Internet access and does not require an office provided Internet connection.
+`<Company Placeholder>`’s software development organization has the ability to work from any location with Internet access and does not require an office provided Internet connection.
 
 
 
 #### Application Service Event Recovery
 
-\<PlaceHolder> will develop a status page to provide real time update and inform our customers of the status of each service. The status page is updated with details about an event that may cause service interruption / downtime.
+`<Company Placeholder>` will develop a status page to provide real time update and inform our customers of the status of each service. The status page is updated with details about an event that may cause service interruption / downtime.
 
 A follow up root-cause analysis details (RCA) will be available to customers upon request after the event has transpired for further details to cause and remediation plan for the future. Event Service Level
 
 **Short (hours)**
 
 * Experience a short delay in service.
-* \<PlaceHolder> will monitor the event and determine course of action. Escalation may be required.
+* `<Company Placeholder>` will monitor the event and determine course of action. Escalation may be required.
 
 **Moderate (days)**
 
 * Experience a modest delay in service where processes in flight may need to be restarted.
-* \<PlaceHolder> will monitor the event and determine course of action. Escalation may be required.
-* \<PlaceHolder> will notify customers of delay in service and provide updates on \<PlaceHolder>’s status page.
+* `<Company Placeholder>` will monitor the event and determine course of action. Escalation may be required.
+* `<Company Placeholder>` will notify customers of delay in service and provide updates on `<Company Placeholder>`’s status page.
 
 **Long (a week or more)**
 
 * Experience a delay in service and processes in flight may need to be restarted.
-* \<PlaceHolder> will monitor the event and determine course of action. Escalation may be required.
-* \<PlaceHolder> will notify customers of delay in service and provide updates on \<PlaceHolder>’s status page.
+* `<Company Placeholder>` will monitor the event and determine course of action. Escalation may be required.
+* `<Company Placeholder>` will notify customers of delay in service and provide updates on `<Company Placeholder>`’s status page.
 
 #### Production Environments and Data Recovery
 
 Production data is to be synchronized across multiple S3 buckets in AWS. Additionally, it is backed up to AWS Glacier for long term storage and recovery. In an event that requires data to be recovered, it will be retrieved from Glacier.
 
-\<PlaceHolder> assumes that in the worst-case scenario, that one of the production environments suffers a complete data loss, the account will be reconstructed from code, and the data restored from Glacier that is hosted within a different AWS account and geolocation.
+`<Company Placeholder>` assumes that in the worst-case scenario, that one of the production environments suffers a complete data loss, the account will be reconstructed from code, and the data restored from Glacier that is hosted within a different AWS account and geolocation.
 
 Recovery of production Environments and data should follow the procedures listed above and in [Data Management - Backup and Recovery](https://apps.us.jupiterone.io/policies/data-mgmt/cp-data-backup)

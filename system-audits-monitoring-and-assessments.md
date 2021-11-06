@@ -8,13 +8,13 @@
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-`placeholder` shall audit, monitor, and assess the access and activity of systems and applications that process or store production and/or sensitive data such as personally identifiable information (PII) and electronic protected health information (ePHI) in order to ensure compliance.
+`<Company Placeholder>` shall audit, monitor, and assess the access and activity of systems and applications that process or store production and/or sensitive data such as personally identifiable information (PII) and electronic protected health information (ePHI) in order to ensure compliance.
 
 It is required by the HIPAA Security Rule, that healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI.
 
-Audit activities may be limited by application, system, and/or network auditing capabilities and resources. `placeholder`  shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
+Audit activities may be limited by application, system, and/or network auditing capabilities and resources. `<Company Placeholder>`  shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
 
-It is the policy of `placeholder`  to safeguard the confidentiality, integrity, and availability of applications, systems, and networks. To ensure that appropriate safeguards are in place and effective, `placeholder`  shall audit access and activity to detect, report, and guard against:
+It is the policy of `<Company Placeholder>`  to safeguard the confidentiality, integrity, and availability of applications, systems, and networks. To ensure that appropriate safeguards are in place and effective, `<Company Placeholder>`  shall audit access and activity to detect, report, and guard against:
 
 * Network vulnerabilities and intrusions;
 * Breaches in confidentiality and security of sensitive information;
@@ -22,17 +22,17 @@ It is the policy of `placeholder`  to safeguard the confidentiality, integrity, 
 * Improper alteration or destruction of sensitive information;
 * Out of date software and/or software known to have vulnerabilities.
 
-This policy applies to all `placeholder`  systems that store, transmit, or process sensitive information.
+This policy applies to all `<Company Placeholder>`  systems that store, transmit, or process sensitive information.
 
 ### Policy Statements
 
-`placeholder`  policy requires that:
+`<Company Placeholder>`  policy requires that:
 
 (a) All critical computing systems and software, both virtual and physical, must enable audit logging.
 
 (b) Audit logs must include sufficient information to identify who did what, when, where.
 
-(c) An annual audit of `placeholder`  security controls must be conducted, either by a designated internal audit team or a qualified external audit firm.
+(c) An annual audit of `<Company Placeholder>`  security controls must be conducted, either by a designated internal audit team or a qualified external audit firm.
 
 
 
@@ -40,7 +40,7 @@ This policy applies to all `placeholder`  systems that store, transmit, or proce
 
 FA's auditing processes include the following.
 
-1. **Configuration and Activity Monitoring:** This refers to the logging, monitoring, scanning and alerting of a system, account, or environment, which may be achieved using real-time automated scripts/software or a manual review/testing. This type of auditing is performed _continuously_ as part of `placeholder`  operations.
+1. **Configuration and Activity Monitoring:** This refers to the logging, monitoring, scanning and alerting of a system, account, or environment, which may be achieved using real-time automated scripts/software or a manual review/testing. This type of auditing is performed _continuously_ as part of `<Company Placeholder>`  operations.
 
 ```
 EXAMPLES INCLUDE:
@@ -57,8 +57,8 @@ EXAMPLES INCLUDE:
     *Data associated with above events will include origin, destination, action performed, timestamp, and other relevant details available.*
 ```
 
-1. **Access Review:** This refers to the review of all user and service accounts and permissions across `placeholder`  operational environments, including on-premise systems, cloud environments such as AWS accounts, and other applications such as collaboration software, ticketing system and code repos.
-   * `placeholder`  developed an internal tool to automatically pull configurations from our cloud based environments, including
+1. **Access Review:** This refers to the review of all user and service accounts and permissions across `<Company Placeholder>`  operational environments, including on-premise systems, cloud environments such as AWS accounts, and other applications such as collaboration software, ticketing system and code repos.
+   * `<Company Placeholder>`  developed an internal tool to automatically pull configurations from our cloud based environments, including
      * AWS access configuration from IAM policies, EC2 VPC and security group settings, S3 bucket policies, Lambda and API Gateway resources, etc.;
      * Users, groups, application access from Okta IdP;
      * Network access settings from Cisco Meraki, etc.
@@ -66,7 +66,7 @@ EXAMPLES INCLUDE:
    * The data is used by the tool to aggregate and analyze user and application access.
    * Access to other systems and applications that are not covered by this automated tool are reviewed manually on a quarterly basis or with any significant change to the target environment.
    * As a result of each review, unused or invalid access will be removed.
-2. **Compliance and Controls Audit:** This refers to the audit performed against the Technical, Administrative, and/or Physical controls as defined in `placeholder`  policies and procedures, to measure their adoption and effectiveness. This type of auditing is typically performed by either a designated internal audit team or an external audit firm, at _defined intervals_ or prompted by a _trigger event_.
+2. **Compliance and Controls Audit:** This refers to the audit performed against the Technical, Administrative, and/or Physical controls as defined in `<Company Placeholder>`  policies and procedures, to measure their adoption and effectiveness. This type of auditing is typically performed by either a designated internal audit team or an external audit firm, at _defined intervals_ or prompted by a _trigger event_.
 
 ```
 POTENTIAL TRIGGER EVENTS INCLUDE:
@@ -105,11 +105,11 @@ Security logs, events, and audit trails are reviewed by the security team with t
 
 Additional manual reviews, such as user accounts and access auditing, may be necessary from time to time. These activities may be triggered by the events listed above.
 
-* Responsibility for audit activity is assigned to `placeholder` 's Security Officer. The Security Officer shall:
+* Responsibility for audit activity is assigned to `<Company Placeholder>` 's Security Officer. The Security Officer shall:
   * Assign the task of generating reports for audit activities to the workforce member responsible for the application, system, or network;
   * Assign the task of reviewing the audit reports to the workforce member responsible for the application, system, or network, the Privacy Officer, or any other individual determined to be appropriate for the task;
   * Organize and provide oversight to a team structure charged with audit compliance activities (e.g., parameters, frequency, sample sizes, report formats, evaluation, follow-up, etc.).
-  * All connections to `placeholder`  are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis.
+  * All connections to `<Company Placeholder>`  are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis.
 * The manual review process shall define and include:
   * Description of the activity as well as rationale for performing the audit.
   * Identification of personnel to perform the review (workforce members shall not review audit logs that pertain to their own system activity).
@@ -125,9 +125,9 @@ Additional manual reviews, such as user accounts and access auditing, may be nec
 
 1. A request may be made for an audit for a specific cause. The request may come from a variety of sources including, but not limited to, Privacy Officer, Security Officer, Customer, Partner, or an Application owner or application user.
 2. A request for an audit for specific cause must include time frame, frequency, and nature of the request.
-3. A request for an audit must be reviewed and approved by `placeholder` 's Privacy Officer and/or Security Officer before proceeding. Under no circumstances shall detailed audit information be shared with parties without proper permissions and access to see such data.
-   * Should the audit disclose that a workforce member has accessed sensitive data inappropriately, the minimum necessary/least privileged information shall be shared with `placeholder` 's Security Officer to determine appropriate sanction/corrective disciplinary action.
-   * Only de-identified information shall be shared with Customer or Partner regarding the results of the investigative audit process. This information will be communicated to the appropriate personnel by `placeholder` 's Privacy Officer or designee. Prior to communicating with customers and partners regarding an audit, it is recommended that `placeholder`  consider seeking guidance from risk management and/or legal counsel.
+3. A request for an audit must be reviewed and approved by `<Company Placeholder>` 's Privacy Officer and/or Security Officer before proceeding. Under no circumstances shall detailed audit information be shared with parties without proper permissions and access to see such data.
+   * Should the audit disclose that a workforce member has accessed sensitive data inappropriately, the minimum necessary/least privileged information shall be shared with `<Company Placeholder>` 's Security Officer to determine appropriate sanction/corrective disciplinary action.
+   * Only de-identified information shall be shared with Customer or Partner regarding the results of the investigative audit process. This information will be communicated to the appropriate personnel by `<Company Placeholder>` 's Privacy Officer or designee. Prior to communicating with customers and partners regarding an audit, it is recommended that `<Company Placeholder>`  consider seeking guidance from risk management and/or legal counsel.
 
 
 
@@ -137,10 +137,10 @@ Additional manual reviews, such as user accounts and access auditing, may be nec
 
 1. Audit information that is routinely gathered must be reviewed in a timely manner, at least monthly, by the responsible workforce member(s). Additional reviews are performed as needed to assure the proper data is being captured and retained.
 2. The reporting process shall allow for meaningful communication of the audit findings to relevant workforce members, Customers, or Partners.
-   * Significant findings shall be reported immediately in a written format. `placeholder` 's security incident response form may be utilized to report a single event.
+   * Significant findings shall be reported immediately in a written format. `<Company Placeholder>` 's security incident response form may be utilized to report a single event.
    * Routine findings shall be reported to the sponsoring leadership structure in a written report format.
 3. Reports of audit results shall be limited to internal use on a minimum necessary/need-to-know basis. Audit results shall not be disclosed externally without administrative and/or legal counsel approval.
-4. Security audits constitute an internal, confidential monitoring practice that may be included in FA's performance improvement activities and reporting. Care shall be taken to ensure that the results of the audits are disclosed to administrative-level oversight structures only and that information which may further expose organizational risk is shared with extreme caution. Generic security audit information may be included in organizational reports (individually-identifiable information shall not be included in the reports).
+4. Security audits constitute an internal, confidential monitoring practice that may be included in <COMPANY PLACEHOLDER>'s performance improvement activities and reporting. Care shall be taken to ensure that the results of the audits are disclosed to administrative-level oversight structures only and that information which may further expose organizational risk is shared with extreme caution. Generic security audit information may be included in organizational reports (individually-identifiable information shall not be included in the reports).
 5. Whenever indicated through evaluation and reporting, appropriate corrective actions must be undertaken. These actions shall be documented and shared with the responsible workforce members, Customers, and/or Partners.
 
 ## Remediation of Control Deficiencies
@@ -155,9 +155,9 @@ Security team works with the corresponding control owner to prioritize and mitig
 
 ## Audit Trails and Application Security Events Logging Standard
 
-`placeholder`  logging standards requires application and system logs to contain sufficient information to determine **who did what, when, where** to ensure recording of security and audit events and to generate evidence for unauthorized activities.
+`<Company Placeholder>`  logging standards requires application and system logs to contain sufficient information to determine **who did what, when, where** to ensure recording of security and audit events and to generate evidence for unauthorized activities.
 
-All systems and software developed at `placeholder`  must have the following security events logging enabled as part of or in addition to standard application logging.
+All systems and software developed at `<Company Placeholder>`  must have the following security events logging enabled as part of or in addition to standard application logging.
 
 1. All security log events must have the following attributes at minimum:
    * Timestamp of the event (synchronized to approved time server)
@@ -183,7 +183,7 @@ All systems and software developed at `placeholder`  must have the following sec
    * Always accessible to the monitoring system/team
    * Protected from any changes
    * Monitored with alerting mechanism in place (including alert for not receiving log events for a certain period of time)
-5. All `placeholder`  IT infrastructure must have system clock synchronized
+5. All `<Company Placeholder>`  IT infrastructure must have system clock synchronized
 
 _Examples of recommended application events for logging and their auditing purpose:_
 
@@ -212,20 +212,20 @@ _Details of the logging configuration is documented at_
 2. All audit logs are protected in transit and encrypted at rest to control access to the content of the logs.
 3. Whenever possible, audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges.
    * Separate systems are used to apply the security principle of "separation of duties" to protect audit trails from hackers.
-   * `placeholder`  logging servers may include Elasticsearch, Logstash, and Kibana (ELK) as part of their baseline configuration to ease reviewing of audit log data. The ELK toolkit provides message summarization, reduction, and reporting functionality.
+   * `<Company Placeholder>`  logging servers may include Elasticsearch, Logstash, and Kibana (ELK) as part of their baseline configuration to ease reviewing of audit log data. The ELK toolkit provides message summarization, reduction, and reporting functionality.
 4. Reports summarizing audit activities shall be retained for a period of seven years.
 5. Audit log data is retained locally on the audit log server or in the source environment for a period of one month. Beyond that, log data is encrypted and moved to warm storage (currently S3) using automated scripts, and is retained for a minimum of one year.
 6. Raw event data may be purged after one month / 30 days as long as the required details are sufficiently covered in aggregated audit logs/reports.
 
 ## Auditing Customer and Partner Activity
 
-1. Periodic monitoring of Customer and Partner activity shall be carried out to ensure that access and activity is appropriate for privileges granted and necessary to the arrangement between `placeholder`  and the 3rd party. `placeholder`  will make every effort to assure Customers and Partners do not gain access to data outside of their own environments.
+1. Periodic monitoring of Customer and Partner activity shall be carried out to ensure that access and activity is appropriate for privileges granted and necessary to the arrangement between `<Company Placeholder>`  and the 3rd party. `<Company Placeholder>`  will make every effort to assure Customers and Partners do not gain access to data outside of their own environments.
 2. If it is determined that the Customer or Partner has exceeded the scope of access privileges, FA's management and security must remedy the problem immediately.
-3. If it is determined that a Customer or Partner has violated the terms of the HIPAA business associate agreement or any terms within the HIPAA regulations, `placeholder`  must take immediate action to remediate the situation. Continued violations may result in discontinuation of the business relationship.
+3. If it is determined that a Customer or Partner has violated the terms of the HIPAA business associate agreement or any terms within the HIPAA regulations, `<Company Placeholder>`  must take immediate action to remediate the situation. Continued violations may result in discontinuation of the business relationship.
 
 ## Auditing and Assessment Tools
 
-`placeholder` 's Security Officer is authorized to select and use assessment tools that are designed to detect vulnerabilities and intrusions. Use of such tools against `placeholder`  systems and environments are prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
+`<Company Placeholder>` 's Security Officer is authorized to select and use assessment tools that are designed to detect vulnerabilities and intrusions. Use of such tools against `<Company Placeholder>`  systems and environments are prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
 
 * Scanning tools and devices;
 * Password cracking utilities;
@@ -240,8 +240,8 @@ Vulnerability testing software may be used to probe the network to identify what
 
 ## Training, Education, Awareness and Responsibilities
 
-1. `placeholder`  workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and data. `placeholder` 's commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. `placeholder`  workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member's failure to comply with organizational policies.
-2. `placeholder`  Customers are provided with necessary information to understand `placeholder`  auditing capabilities. Platform Customers are responsible for the logging, auditing and retention of any application hosted outside of `placeholder`  environments, even though the applications may integrate with `placeholder`  Platform API. Customer applications hosted within the `placeholder`  environments will follow the auditing standards and procedures defined in this document.
+1. `<Company Placeholder>`  workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and data. `<Company Placeholder>` 's commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. `<Company Placeholder>`  workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member's failure to comply with organizational policies.
+2. `<Company Placeholder>`  Customers are provided with necessary information to understand `<Company Placeholder>`  auditing capabilities. Platform Customers are responsible for the logging, auditing and retention of any application hosted outside of `<Company Placeholder>`  environments, even though the applications may integrate with `<Company Placeholder>`  Platform API. Customer applications hosted within the `<Company Placeholder>`  environments will follow the auditing standards and procedures defined in this document.
 
 
 

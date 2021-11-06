@@ -8,7 +8,7 @@
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-\<PlaceHolder> implements an information security incident response process to consistently detect, respond, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
+`<Company Placeholder>` implements an information security incident response process to consistently detect, respond, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
 
 The incident response process addresses:
 
@@ -29,9 +29,9 @@ These policies were adapted from work by the [HIPAA Collaborative of Wisconsin S
 
 ### Policy Statements
 
-\<PlaceHolder> policy requires that:
+`<Company Placeholder>` policy requires that:
 
-(a) All computing environments and systems must be monitored in accordance to the policies and procedures specified in the following \<PlaceHolder> policies and procedures:
+(a) All computing environments and systems must be monitored in accordance to the policies and procedures specified in the following `<Company Placeholder>` policies and procedures:
 
 * Auditing
 * System Access
@@ -55,7 +55,7 @@ The Security Incident Response Team (SIRT) is responsible for:
 * Performing investigations, creating and executing action plans, post-incident activities.
 * Collaboration with law enforcement agencies.
 
-Current members of the \<PlaceHolder> SIRT:
+Current members of the `<Company Placeholder>` SIRT:
 
 * Security and Privacy Officer
 * Security Engineers
@@ -64,9 +64,9 @@ Current members of the \<PlaceHolder> SIRT:
 
 #### Incident Management Process
 
-The \<PlaceHolder> incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process.
+The `<Company Placeholder>` incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process.
 
-\<PlaceHolder>'s incident response classifies security-related events into the following categories:
+`<Company Placeholder>`'s incident response classifies security-related events into the following categories:
 
 * **Events** - Any observable computer security-related occurrence in a system or network with a negative consequence. Examples:
   * Hardware component failing causing service outages.
@@ -75,7 +75,7 @@ The \<PlaceHolder> incident response process follows the process recommended by 
 * **Precursors** - A sign that an incident may occur in the future. Examples:
   * Monitoring system showing unusual behavior.
   * Audit log alerts indicated several failed login attempts.
-  * Suspicious emails targeting specific \<PlaceHolder> staff members with administrative access to production systems.
+  * Suspicious emails targeting specific `<Company Placeholder>` staff members with administrative access to production systems.
   * Alerts raised from a security control source based on its monitoring policy, such as
     * Okta (user authentication activities)
     * Threat Stack (AWS Cloudtrail events or system agent activities)
@@ -92,7 +92,7 @@ The \<PlaceHolder> incident response process follows the process recommended by 
   * A data breach accomplished by an internal or external entity.
   * A Denial-of-Service (DoS) attack causing a critical service to become unreachable.
 
-\<PlaceHolder> employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security team know about any observed precursors or indications as soon as they are discovered.
+`<Company Placeholder>` employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security team know about any observed precursors or indications as soon as they are discovered.
 
 ```
 ATTENTION
@@ -106,11 +106,11 @@ Categories and Playbooks** section.
 
 **I - Identification and Triage**
 
-1. Immediately upon observation \<PlaceHolder> members report suspected and known Events, Precursors, Indications, and Incidents in one of the following ways:
+1. Immediately upon observation `<Company Placeholder>` members report suspected and known Events, Precursors, Indications, and Incidents in one of the following ways:
    1. Direct report to management, the Security Officer, Privacy Officer, or other;
    2. Email;
    3. Phone call;
-   4. Submit an incident report online via \[\<PlaceHolder> Internal ServiceDesk];
+   4. Submit an incident report online via \[`<Company Placeholder>` Internal ServiceDesk];
    5. Secure chat; or
    6. Anonymously through workforce members desired channels.
 2. The individual receiving the report facilitates the collection of additional information about the incident, as needed, and notifies the Security Officer (if not already done).
@@ -127,12 +127,12 @@ Categories and Playbooks** section.
       6. The lead member of the SIRT team facilitates initiation of an Incident ticket in JIRA Security Project and documents all findings and details in the ticket.
          * The intent of the Incident ticket is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
          * Each Incident ticket should contain sufficient details following the [SANS Security Incident Forms templates](https://www.sans.org/score/incident-forms/), as appropriate.
-4. The Security Officer, Privacy Officer, or \<PlaceHolder> representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
-5. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to \<PlaceHolder> and potentially external.
+4. The Security Officer, Privacy Officer, or `<Company Placeholder>` representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
+5. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to `<Company Placeholder>` and potentially external.
 
 **II - Containment (Technical)**
 
-In this Phase, \<PlaceHolder>'s engineers and security team attempts to contain the security incident. It is extremely important to take detailed notes during the security incident response process. This provides that the evidence gathered during the security incident can be used successfully during prosecution, if appropriate.
+In this Phase, `<Company Placeholder>`'s engineers and security team attempts to contain the security incident. It is extremely important to take detailed notes during the security incident response process. This provides that the evidence gathered during the security incident can be used successfully during prosecution, if appropriate.
 
 1. Review any information that has been collected by the Security team or any other individual investigating the security incident.
 2. Secure the blast radius (i.e. a physical or logical network perimeter or access zone).
@@ -187,19 +187,19 @@ The Follow-up phase represents the review of the security incident to look for "
 
 1. Responders to the security incident (SIRT Team and technical security resource) meet to review the documentation collected during the security incident.
 2. A "lessons learned" section is written and attached to Incident ticket.
-   1. Evaluate the cost and impact of the security incident to \<PlaceHolder> using the documents provided by the SIRT and the technical security resource.
+   1. Evaluate the cost and impact of the security incident to `<Company Placeholder>` using the documents provided by the SIRT and the technical security resource.
    2. Determine what could be improved. This may include:
       * Systems and processes adjustments
       * Awareness training and documentation
       * Implementation of additional controls
    3. Communicate these findings to Senior Management for approval and for implementation of any recommendations made post-review of the security incident.
    4. Carry out recommendations approved by Senior Management; sufficient budget, time and resources should be committed to this activity.
-3. Ensure all incident related information is recorded and retained as described in \<PlaceHolder> Auditing requirements and Data Retention standards.
+3. Ensure all incident related information is recorded and retained as described in `<Company Placeholder>` Auditing requirements and Data Retention standards.
 4. Close the security incident.
 
 **Periodic Evaluation**
 
-It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding the \<PlaceHolder>'s expectation for them, relative to security responsibilities. The incident response plan is tested annually.
+It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding the `<Company Placeholder>`'s expectation for them, relative to security responsibilities. The incident response plan is tested annually.
 
 
 
@@ -281,7 +281,7 @@ At least the following two special cases are considered when responding to an in
 
 When a data breach occurs that involves unsecured PHI or ePHI, breach notifications must be performed according to HIPAA regulation requirements, including each individual impacted and as applicable, the covered entity and OCR (see Appendix for additional details).
 
-If the breach or potential breach impacts PHI/ePHI that belongs to a Covered Entity to which \<PlaceHolder> is a Business Associate of, the IRT and management team will inform the Covered Entity per the timeframe and contact method established in the Business Associate Agreement or as described in §Breach Notification. HIPAA §164.410(b)
+If the breach or potential breach impacts PHI/ePHI that belongs to a Covered Entity to which `<Company Placeholder>` is a Business Associate of, the IRT and management team will inform the Covered Entity per the timeframe and contact method established in the Business Associate Agreement or as described in §Breach Notification. HIPAA §164.410(b)
 
 **Criminal Activities:**
 
@@ -297,13 +297,13 @@ Members of the cross-discipline insider threat incident handling team include:
 
 #### Emergency Operations Mode
 
-If an incident constitutes an emergency – for example, a detected cyberattack that impacts production systems – \<PlaceHolder> plans to operate in a “read-only” mode, to continue to provide customers access to their data. All write access is temporarily blocked and data upload is paused until the emergency is resolved. This is accomplished by updating the access policy in production AWS environments.
+If an incident constitutes an emergency – for example, a detected cyberattack that impacts production systems – `<Company Placeholder>` plans to operate in a “read-only” mode, to continue to provide customers access to their data. All write access is temporarily blocked and data upload is paused until the emergency is resolved. This is accomplished by updating the access policy in production AWS environments.
 
 In emergency operations mode, temporary access may be granted to security and/or engineering team to access the production environments to perform forensics, root cause analysis, eradication/remediation, or other necessary activities for incident recovery.
 
 #### Tabletop Exercise
 
-At least once per year, \<PlaceHolder> security and engineering teams jointly performs a Red Team exercise and/or a simulated "drill" of an emergency cyberattack that results in one or more **CRITICAL** incidents. Depending on the type of exercise, the duration may range from 2-4 hours (simulated "drill") to a couple of weeks (full Red Teaming exercise).
+At least once per year, `<Company Placeholder>` security and engineering teams jointly performs a Red Team exercise and/or a simulated "drill" of an emergency cyberattack that results in one or more **CRITICAL** incidents. Depending on the type of exercise, the duration may range from 2-4 hours (simulated "drill") to a couple of weeks (full Red Teaming exercise).
 
 The exercise will follow a cyberattack playbook. It may be conducted with all internal resources or with the help of an external security consulting firm. The goal of the exercise is to ensure all parties involved receive proper training to handle an actual incident and to test out the documented procedures in order to identify gaps ahead of a real event. Senior leadership team may be invited to participate in the "drill" depending on the nature of the exercise or receive a readout of the outcome.
 

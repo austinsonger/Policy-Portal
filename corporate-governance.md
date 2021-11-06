@@ -8,9 +8,9 @@
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-`Placeholder`  believes in transparent and ethical business practices, and the protection of long-term interests of its employees, customers, shareholders and other stakeholders.
+`<Company Placeholder>`  believes in transparent and ethical business practices, and the protection of long-term interests of its employees, customers, shareholders and other stakeholders.
 
-`Placeholder`  has established a Board of Directors (Bod) and appointed qualified members and directors, such that:
+`<Company Placeholder>`  has established a Board of Directors (Bod) and appointed qualified members and directors, such that:
 
 * A corporate bylaws and BoD charters are in place that describe board members responsibilities.
 * The BoD identifies and accepts its oversight responsibilities in relation to established requirements and expectations.

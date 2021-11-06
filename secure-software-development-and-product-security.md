@@ -10,9 +10,9 @@
 
 
 
-\<PlaceHolder> development team follows the latest security best practices when developing software, and automates security testing throughout development lifecycle whenever possible.
+`<Company Placeholder>` development team follows the latest security best practices when developing software, and automates security testing throughout development lifecycle whenever possible.
 
-Security is integrated into all phases of \<PlaceHolder> product development lifecycle, including:
+Security is integrated into all phases of `<Company Placeholder>` product development lifecycle, including:
 
 * Secure Design:
   * App Risk classification
@@ -34,13 +34,13 @@ Security is integrated into all phases of \<PlaceHolder> product development lif
   * Follows defined vulnerability management lifecycle
   * Ensures no high risk security vulnerability is in production
 
-Details about the \<PlaceHolder> software application architecture and security are documented on the \[product development / engineering wiki].
+Details about the `<Company Placeholder>` software application architecture and security are documented on the \[product development / engineering wiki].
 
 ## Policy Statements
 
-\<PlaceHolder> policy requires that:
+`<Company Placeholder>` policy requires that:
 
-(a) \<PlaceHolder> software engineering and product development is required to follow security best practices. Product should be "Secure by Design" and "Secure by Default".
+(a) `<Company Placeholder>` software engineering and product development is required to follow security best practices. Product should be "Secure by Design" and "Secure by Default".
 
 (b) Quality assurance activities must be performed. This may include
 
@@ -51,7 +51,7 @@ Details about the \<PlaceHolder> software application architecture and security 
 
 (d) Security requirements must be defined, tracked, and implemented.
 
-(e) Security analysis must be performed for any open source software and/or third-party components and dependencies included in \<PlaceHolder> software products.
+(e) Security analysis must be performed for any open source software and/or third-party components and dependencies included in `<Company Placeholder>` software products.
 
 (f) Static application security testing (SAST) must be performed throughout development and prior to each release.
 
@@ -67,11 +67,11 @@ Details about the \<PlaceHolder> software application architecture and security 
 
 **Overview**
 
-Software development at \<PlaceHolder> follows a release strategy that provides traceability for production software changes. Features, enhancements, and bugs are written up as Issues in JIRA. An engineer on a small team proposes changes necessary and creates a review for the team (Github Enterprise). Continuous integration (Jenkins) kicks off unit and functional tests which pass before changes are merged into the repository. Once the review is complete, the changes are now deployed to the development environment where regression and end-to-end tests are run before the new code replaces the existing in-service code (test then deploy model). Small teams can decide to follow a source-control branching strategy that makes sense: git-flow, github flow.
+Software development at `<Company Placeholder>` follows a release strategy that provides traceability for production software changes. Features, enhancements, and bugs are written up as Issues in JIRA. An engineer on a small team proposes changes necessary and creates a review for the team (Github Enterprise). Continuous integration (Jenkins) kicks off unit and functional tests which pass before changes are merged into the repository. Once the review is complete, the changes are now deployed to the development environment where regression and end-to-end tests are run before the new code replaces the existing in-service code (test then deploy model). Small teams can decide to follow a source-control branching strategy that makes sense: git-flow, github flow.
 
-\<PlaceHolder> practices continuous delivery of code into production through multiple environments: development, testing, production. The deploy process and infrastructure roll-out are written as code (using technologies such as Terraform and AWS Cloudformation) and managed under source control.
+`<Company Placeholder>` practices continuous delivery of code into production through multiple environments: development, testing, production. The deploy process and infrastructure roll-out are written as code (using technologies such as Terraform and AWS Cloudformation) and managed under source control.
 
-\<PlaceHolder>’s multiple lower environments (dev, test) provide an ecosystem of sample data sets that exercise the application and services when test automation is run. The test environment is where the system is stressed for performance and scalability. Performance and scalability changes are driven by metric data captured through monitoring and logging (metrics before and after change – typically captured as part of the issue description/writeup).
+`<Company Placeholder>`’s multiple lower environments (dev, test) provide an ecosystem of sample data sets that exercise the application and services when test automation is run. The test environment is where the system is stressed for performance and scalability. Performance and scalability changes are driven by metric data captured through monitoring and logging (metrics before and after change – typically captured as part of the issue description/writeup).
 
 Deployments to production are gated by change control process where an issue is opened which identify what is new/changed (JIRA). Sign-offs are recorded by development, testing, security, and product management. Production roll-outs happen on a regular basis without impact to service. This continuous process allows for security updates to roll out regularly and with urgency. If there is impact to production, a rollback is performed to restore service and whatever caused the problem is reverted from source. This restarts the re-proposal approval process of source changes. This process keeps the set of differences between the development environment and the production environment as low as possible.
 
@@ -81,7 +81,7 @@ In the continuous delivery mindset, features are not released by the deployment 
 
 [Traceability](https://en.wikipedia.org/wiki/Traceability) of code changes allow for our software to be a living entity. Our current system for documenting changes is JIRA. Every commit and/or Pull-Request, should have a JIRA supplied that describes contextually why this change is necessary and reasonable. These artifacts over time allow for one to trace the lineage of why our production software and services change over time.
 
-All \<PlaceHolder> `git` repositories have a company standard configuration from a Github Enterprise perspective. This standard is a guideline and can be relaxed, but socialize when those exceptions are needed. One example of an exception, is the `wiki` repository, as editing a wiki and always requiring a PR in this setting slows down 'flow'.
+All `<Company Placeholder>` `git` repositories have a company standard configuration from a Github Enterprise perspective. This standard is a guideline and can be relaxed, but socialize when those exceptions are needed. One example of an exception, is the `wiki` repository, as editing a wiki and always requiring a PR in this setting slows down 'flow'.
 
 * Code: <#>
 * Repo settings: <#>
@@ -113,9 +113,9 @@ All \<PlaceHolder> `git` repositories have a company standard configuration from
 
 Features, enhancements, and bugs are written up as issues (JIRA). An engineer on a small team proposes changes necessary and creates a review for the team (Github Enterprise). Continuous integration (Jenkins) kicks off unit and functional tests which pass before changes are merged into the repository. Once the review is complete, the changes are now deployed to the development environment where regression and end-to-end tests are run before the new code replaces the existing in-service code (test then deploy model). Small teams can decide to follow a source-control branching strategy that makes sense: git-flow, github flow.
 
-\<PlaceHolder> practices continuous delivery of code into production through multiple environments: development, testing, production. The deploy process and infrastructure roll-out are written as code (Terraform) and managed under source control.
+`<Company Placeholder>` practices continuous delivery of code into production through multiple environments: development, testing, production. The deploy process and infrastructure roll-out are written as code (Terraform) and managed under source control.
 
-\<PlaceHolder>'s multiple lower environments (dev, test) provide an ecosystem of sample data sets that can be used to exercise the application and services when test automation is run. The test environment is where the system is stressed for performance and scalability. Performance and scalability changes are driven by metric data captured through monitoring and logging (metrics before and after change - typically captured as part of the issue description/writeup).
+`<Company Placeholder>`'s multiple lower environments (dev, test) provide an ecosystem of sample data sets that can be used to exercise the application and services when test automation is run. The test environment is where the system is stressed for performance and scalability. Performance and scalability changes are driven by metric data captured through monitoring and logging (metrics before and after change - typically captured as part of the issue description/writeup).
 
 Deployments to production are gated by change management process where an issue is opened which identify what is new/changed (JIRA). Sign-offs are recorded by development, testing, security, and product management. Production roll-outs happen on a regular basis without impact to service. This continuous process allows for security updates to roll out regularly and with urgency. If there is impact to production, a rollback is performed to restore service and whatever caused the problem is reverted from source. This restarts the re-proposal approval process of source changes.
 
@@ -131,7 +131,7 @@ Features may be released via code deployments or features may be enabled in prod
 
 ## Source Code Management
 
-\<PlaceHolder> development/engineering team uses Github Enterprise for source code management. Access to Github Enterprise and its configuration standards include:
+`<Company Placeholder>` development/engineering team uses Github Enterprise for source code management. Access to Github Enterprise and its configuration standards include:
 
 * All developers must authenticate to gain access to Github Enterprise and code repos hosted on Github Enterprise according to standards and procedures defined in the Access Policy:
   * Access control to the Github Enterprise web interface must be enabled, via SSO and/or MFA if applicable
@@ -151,7 +151,7 @@ Features may be released via code deployments or features may be enabled in prod
 
 ## High Level Application Security Requirements
 
-All \<PlaceHolder> software must be developed to include the following general application security principles and requirements. Web applications must also protect itself against the [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP\_Top\_Ten\_Project#tab=OWASP\_Top\_10\_for\_2017\_Release\_Candidate) vulnerabilities.
+All `<Company Placeholder>` software must be developed to include the following general application security principles and requirements. Web applications must also protect itself against the [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP\_Top\_Ten\_Project#tab=OWASP\_Top\_10\_for\_2017\_Release\_Candidate) vulnerabilities.
 
 1. Protect sensitive customer data such as PHI, PII and account passwords. Encrypt data stored (at rest).
 2. Secure data in transit and customer communications via TLS.
@@ -170,13 +170,13 @@ All software code must complete a set of security scans/testing prior to being d
 
 Pre-production testing is performed with nonproduction data in nonproduction environments. Health checks are performed regularly or automated in production.
 
-Software vulnerability identified through any of the above processes shall be reported and tracked following \<PlaceHolder> Vulnerability Management process as defined in the Vulnerability Management Policy and Procedures.
+Software vulnerability identified through any of the above processes shall be reported and tracked following `<Company Placeholder>` Vulnerability Management process as defined in the Vulnerability Management Policy and Procedures.
 
 
 
 ## Secure Design and Application Threat Modeling
 
-\<PlaceHolder> Security Team in collaboration with development team performs full Application Threat Modeling and Risk Assessment on per-application basis using a custom approach that relies on industry standards and best practices.
+`<Company Placeholder>` Security Team in collaboration with development team performs full Application Threat Modeling and Risk Assessment on per-application basis using a custom approach that relies on industry standards and best practices.
 
 Major application updates are captured via an **RFC** process. The RFC template includes **Security Consideration** as a required section. This section is used to document abuse cases including:
 
@@ -198,19 +198,19 @@ The RFC must be approved prior to implementation. Security team is included in R
 
 **Platform Design and DevOps Security Details**
 
-Documentation on the \<PlaceHolder> \[Engineering Wiki] may include additional security specifications as well as the security design and implementation details of the \<PlaceHolder> Platform and its supporting operations.
+Documentation on the `<Company Placeholder>` \[Engineering Wiki] may include additional security specifications as well as the security design and implementation details of the `<Company Placeholder>` Platform and its supporting operations.
 
 
 
 ## Access Control of the Application (Identification, Authentication, Authorization, Accounting)
 
-\<PlaceHolder> external software application that is customer facing with access to customer specific data, including sensitive information such as PII and ePHI, implements strong access control, covering the Identification, Authentication, Authorization, and Accounting/Auditing (IAAA) of access and user activity.
+`<Company Placeholder>` external software application that is customer facing with access to customer specific data, including sensitive information such as PII and ePHI, implements strong access control, covering the Identification, Authentication, Authorization, and Accounting/Auditing (IAAA) of access and user activity.
 
 The implementation ensures that
 
 * the user requesting access is the one claimed (Identification and Authentication);
 * only users authorized to access specific data (such as ePHI) are allowed to (Authorization); and
-* their access activities are logs (Accounting/Auditing) according to the \<PlaceHolder> auditing standards.
+* their access activities are logs (Accounting/Auditing) according to the `<Company Placeholder>` auditing standards.
 
 The current implementation leverages AWS Cognito for user identity management and access.
 
@@ -222,7 +222,7 @@ More implementation details are documented on the internal Engineering wiki.
 
 ## Free and Open Source Software (FOSS) Security
 
-\<PlaceHolder> security and development team implemented a process to
+`<Company Placeholder>` security and development team implemented a process to
 
 * Inventory all software dependencies;
 * Scan software dependencies for known security vulnerability;
@@ -242,7 +242,7 @@ Snyk can be leveraged in local development environment to scan locally and/or at
 
 Tools:
 
-* The Lint and GitLeaks Platform - static and dynamic code analysis. Together with the FOSS security tool, the SAST testing was made available to use via the automated `security-scan` docker image, as well as integrated into \<PlaceHolder> Jenkins pipeline library via the `securityScan()` step
+* The Lint and GitLeaks Platform - static and dynamic code analysis. Together with the FOSS security tool, the SAST testing was made available to use via the automated `security-scan` docker image, as well as integrated into `<Company Placeholder>` Jenkins pipeline library via the `securityScan()` step
 * Manual code security reviews are periodically performed by the Security team as follows:
   * Periodic review as part of weekly activities
   * Every pull request which includes security team as approvers
@@ -274,7 +274,7 @@ An external penetration testing is performed at least once a year by a qualified
 
 All technology contains bugs, including both functional defects and security vulnerability.
 
-\<PlaceHolder> uses a third party platform to maintain a public vulnerability disclosure / bug bounty program. This program takes advantage of crowd-sourced security researchers to perform penetration testing of \<PlaceHolder>'s platform and its public facing resources.
+`<Company Placeholder>` uses a third party platform to maintain a public vulnerability disclosure / bug bounty program. This program takes advantage of crowd-sourced security researchers to perform penetration testing of `<Company Placeholder>`'s platform and its public facing resources.
 
 The current program provider is HackerOne.
 

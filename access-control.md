@@ -8,25 +8,25 @@
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-Access to \<PlaceHolder> systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization's information systems.
+Access to `<Company Placeholder>` systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization's information systems.
 
 These safeguards have been established to address the HIPAA Security regulations and industry best practices.
 
 ## Policy Statements
 
-#### Access Control Policy
+#### Access Control Policy 
 
-\<PlaceHolder> policy requires that
+`<Company Placeholder>` policy requires that
 
 (a) Access to all computing resources, including servers, end-user computing devices, network equipment, services and applications, must be protected by strong authentication, authorization, and auditing.
 
 (b) Interactive user access must be associated to an account or login unique to each user.
 
-(c) All credentials, including user passwords, service accounts, and access keys, must meet the length, complexity, age, and rotation requirements defined in \<PlaceHolder> security standards.
+(c) All credentials, including user passwords, service accounts, and access keys, must meet the length, complexity, age, and rotation requirements defined in `<Company Placeholder>` security standards.
 
 (d) Use strong password and multi-factor authentication (MFA) whenever possible to authenticate to all computing resources (including both devices and applications).
 
-(e) MFA is required to access any critical system or resource, including but not limited to resources in \<PlaceHolder> production environments.
+(e) MFA is required to access any critical system or resource, including but not limited to resources in `<Company Placeholder>` production environments.
 
 (f) Unused accounts, passwords, access keys must be removed within an established timeframe.
 
@@ -36,7 +36,7 @@ These safeguards have been established to address the HIPAA Security regulations
 
 #### Access Authorization and Termination
 
-\<PlaceHolder> policy requires that
+`<Company Placeholder>` policy requires that
 
 (a) Access authorization shall be implemented using role-based access control (RBAC) or similar mechanism.
 
@@ -52,17 +52,17 @@ These safeguards have been established to address the HIPAA Security regulations
 
 #### Shared Secrets Management
 
-\<PlaceHolder> policy requires that
+`<Company Placeholder>` policy requires that
 
 (a) Use of shared credentials/secrets must be minimized and approved on an exception basis.
 
-(b) If required by business operations, secrets/credentials must be shared securely and stored in encrypted vaults that meet the \<PlaceHolder> data encryption standards.
+(b) If required by business operations, secrets/credentials must be shared securely and stored in encrypted vaults that meet the `<Company Placeholder>` data encryption standards.
 
 (c) Usage of a shared secret to access a critical system or resource must be supported by a complimenting solution to uniquely identify the user.
 
 #### Privileged Access Management
 
-\<PlaceHolder> policy requires that
+`<Company Placeholder>` policy requires that
 
 (a) Users must not log in directly to systems as a privileged user.
 
@@ -82,30 +82,30 @@ These safeguards have been established to address the HIPAA Security regulations
 
 1. The level of security assigned to a user to the organization's information systems is based on the minimum necessary amount of data access required to carry out legitimate job responsibilities assigned to a user's job classification and/or to a user needing access to carry out treatment, payment, or healthcare operations.
 2. All access requests are treated on a "least-privilege" principle.
-3. \<PlaceHolder> maintains a minimum necessary approach to access to Customer data. As such, \<PlaceHolder>, including all workforce members, does not readily have access to any ePHI.
+3. `<Company Placeholder>` maintains a minimum necessary approach to access to Customer data. As such, `<Company Placeholder>`, including all workforce members, does not readily have access to any ePHI.
 
 **Access Authorization**
 
-1. Role based access categories for each \<PlaceHolder> system and application are pre-approved by the Security Officer.
-2. \<PlaceHolder> utilizes hardware-defined and/or software-defined boundaries to segment data, prevent unauthorized access, and monitor traffic for denial of service attacks.
+1. Role based access categories for each `<Company Placeholder>` system and application are pre-approved by the Security Officer.
+2. `<Company Placeholder>` utilizes hardware-defined and/or software-defined boundaries to segment data, prevent unauthorized access, and monitor traffic for denial of service attacks.
 
 **Person or Entity Authentication**
 
 1. Each workforce member has and uses a unique user ID and password that identifies him/her as the user of the information system.
 2. Each Customer and Partner has and uses a unique user ID and password or OpenID Connect that identifies him/her as the user of the information system. This is enforced through the use of **AWS Cognito**.
-3. All customer support interactions must be verified before \<PlaceHolder> support personnel will satisfy any request having information security implications.
+3. All customer support interactions must be verified before `<Company Placeholder>` support personnel will satisfy any request having information security implications.
 
 **Unique User Identification**
 
-1. Access to the \<PlaceHolder> Platform systems and applications is controlled by requiring unique User Login IDs and passwords for each individual user and developer.
+1. Access to the `<Company Placeholder>` Platform systems and applications is controlled by requiring unique User Login IDs and passwords for each individual user and developer.
 2. Passwords requirements mandate strong password controls (see below).
 3. Passwords are not displayed at any time and are not transmitted or stored in plain text.
 4. Default accounts on all production systems and environments, including root, are disabled/locked.
-5. Shared accounts are not allowed within \<PlaceHolder> systems or networks.
+5. Shared accounts are not allowed within `<Company Placeholder>` systems or networks.
 
 **Automatic Logon and Logoff**
 
-1. Automated log-on configurations that store user passwords or bypass password entry are not permitted for use with \<PlaceHolder> workstations or production systems.
+1. Automated log-on configurations that store user passwords or bypass password entry are not permitted for use with `<Company Placeholder>` workstations or production systems.
    * Automatic log-on may only be permitted for low-risk systems such as conference room PCs connecting to a Zoom Room.
    * Such systems are configured on separate network VLANs.
 2. Users are required to make information systems inaccessible by any other individual when unattended by the users (ex. by using a password protected screen saver or logging off the system).
@@ -117,9 +117,9 @@ These safeguards have been established to address the HIPAA Security regulations
 
 ## Password Management
 
-1. User IDs and passwords are used to control access to \<PlaceHolder> systems and may not be disclosed to anyone for any reason.
+1. User IDs and passwords are used to control access to `<Company Placeholder>` systems and may not be disclosed to anyone for any reason.
 2. Users may not allow anyone, for any reason, to have access to any information system using another user's unique user ID and password.
-3. On all production systems and applications in the \<PlaceHolder> environment, password configurations are set to require:
+3. On all production systems and applications in the `<Company Placeholder>` environment, password configurations are set to require:
    * a minimum length of 12 characters;
    * a mix of upper case characters, lower case characters, and numbers or special characters;
    * a 60-day password expiration, or 60-day password expiration for administrative accounts;
@@ -159,10 +159,10 @@ EXCEPTIONS
 
 #### Single Sign On
 
-* \<PlaceHolder> selected Okta as its primary Identity Provider (IdP) to control user access to systems and business applications.
+* `<Company Placeholder>` selected Okta as its primary Identity Provider (IdP) to control user access to systems and business applications.
 * Single sign-on (SSO) should be used whenever possible instead of local authentication. This centralized approach improves user experience and simplifies access management.
 * SSO is configured via industry standard SAML protocol between the IdP (Okta) and the target application.
-* \<PlaceHolder> will not configure SSO to target applications unless they score a "B" rating or higher on the [Qualys SSL Labs](https://www.ssllabs.com) benchmark.
+* `<Company Placeholder>` will not configure SSO to target applications unless they score a "B" rating or higher on the [Qualys SSL Labs](https://www.ssllabs.com) benchmark.
 * Security team is responsible for the administration of the IdP / SSO system, including user and access provisioning. Security team may delegate administrative privilege to a subset of the system, such as a specific application.
 
 
@@ -171,9 +171,9 @@ EXCEPTIONS
 
 ## Multi-factor Authentication
 
-Multi-factor authentication (MFA) is a standard control used by \<PlaceHolder> to provide strong access control to critical systems and applications, and should be enabled whenever possible.
+Multi-factor authentication (MFA) is a standard control used by `<Company Placeholder>` to provide strong access control to critical systems and applications, and should be enabled whenever possible.
 
-\<PlaceHolder> implements Okta for MFA.
+`<Company Placeholder>` implements Okta for MFA.
 
 ```
 IMPORTANT
@@ -210,7 +210,7 @@ Access to sensitive data and production customer data is highly restricted and f
 
 ## Temporary Access to AWS Accounts and Resources
 
-Access to \<PlaceHolder> AWS accounts are permissible through temporary credentials / sessions only. No persistent users, passwords or access keys are allowed in AWS IAM configurations for end-user access, either to the AWS console or AWS CLI. This is achieved with the following processes:
+Access to `<Company Placeholder>` AWS accounts are permissible through temporary credentials / sessions only. No persistent users, passwords or access keys are allowed in AWS IAM configurations for end-user access, either to the AWS console or AWS CLI. This is achieved with the following processes:
 
 **AWS Console Access**
 
@@ -236,7 +236,7 @@ Access to \<PlaceHolder> AWS accounts are permissible through temporary credenti
 
 **IAM Safety**
 
-* \<PlaceHolder> implements **Dome9** to monitor and protect its AWS environments. Dome9 provides an additional layer of defense on top of native IAM policies called **IAM Safety**.
+* `<Company Placeholder>` implements **Dome9** to monitor and protect its AWS environments. Dome9 provides an additional layer of defense on top of native IAM policies called **IAM Safety**.
 * IAM Safety works by defining a set of risky actions, such as adding/remove IAM users to an **Explicit Deny** policy. The policy is attached to an IAM Group, and protected Users and/or Roles are assigned to this Group.
 * Because explicit deny rules always take precedence in AWS IAM policy, this effectively restricts access and prohibits execution of the risky actions as defined in the policy, even if the user/role may have administrative privilege.
 * Original access can be temporarily restored through the Dome9 web console or its mobile app.
@@ -248,7 +248,7 @@ Access to \<PlaceHolder> AWS accounts are permissible through temporary credenti
 In normal operations, troubleshooting is performed with log analysis in Sumo Logic, outside of the production environments in AWS. A separate Support role is created for temporary troubleshooting and support access when log access is insufficient to determine the cause. Support access should be minimized and is designed to involve manual approval and provision process.
 
 * The Support role by default is NOT assigned to anyone.
-* The Support role is configured with Read level access to the services used by \<PlaceHolder> platform services and applications. It does NOT have permission to make any configuration changes and does NOT have access to production data.
+* The Support role is configured with Read level access to the services used by `<Company Placeholder>` platform services and applications. It does NOT have permission to make any configuration changes and does NOT have access to production data.
 * A PRODCM ticket is used to request temporary support access and must be approved by Head of Engineering and Security.
 * Upon approval of the support access PRODCM ticket, Security grants the requestor temporary access to by assigning the Support role to that particular individual user in Okta.
 * The Support role is protected by Dome9 with IAM Safety and it must be explicitly allowed by the Security team for it to assume the Support role in the target production environment.
@@ -257,7 +257,7 @@ In normal operations, troubleshooting is performed with log analysis in Sumo Log
 
 **Dual Control for Root Access**
 
-\<PlaceHolder> implements a Dual Control / Split Knowledge process to protect the Root user access to our AWS accounts. The process works as follow:
+`<Company Placeholder>` implements a Dual Control / Split Knowledge process to protect the Root user access to our AWS accounts. The process works as follow:
 
 * Security Lead has access to the root account credentials.
   * The credentials are stored encrypted in the master account.
@@ -265,7 +265,7 @@ In normal operations, troubleshooting is performed with log analysis in Sumo Log
   * Security Lead must assume a role with permission to access the credential (e.g. Administrator), which is protected by an additional layer of IAM Safety.
 * Engineering Lead has access to the Hardware Tokens associated with the root users.
   * The tokens are stored in secured facility with restricted badge reader access.
-  * The token serial is mapped per account and documented in \[\<PlaceHolder> Engineering Wiki].
+  * The token serial is mapped per account and documented in \[`<Company Placeholder>` Engineering Wiki].
 
 When root access is required for business or operational needs, a JIRA Issue is created that requires the Security Lead and Engineering Lead to jointly perform the action.
 
@@ -277,7 +277,7 @@ When root access is required for business or operational needs, a JIRA Issue is 
 
 * VPN remote access to non-production and non-privileged environments in AWS are permissible and implemented using **Pritunl**.
 * VPN remote access to master and production accounts are prohibited.
-* VPN remote access to \<PlaceHolder> office network(s) is configured via **Pritunl**, and should be used whenever connecting from public networks.
+* VPN remote access to `<Company Placeholder>` office network(s) is configured via **Pritunl**, and should be used whenever connecting from public networks.
 
 
 
@@ -286,15 +286,15 @@ When root access is required for business or operational needs, a JIRA Issue is 
 ## Access to PHI/ePHI
 
 1. Access to ePHI is permitted to genomics science staff, or staff that otherwise has a business need to access.
-2. Access to any on-premise server that contains ePHI is restricted and monitored. _Currently \<PlaceHolder> has no on-premise server that stores or processes ePHI._
-3. Access to ePHI in \<PlaceHolder>'s production environments in the cloud is strictly prohibited. Access is protected via multiple layers of security controls such as IAM policies, restricted IAM roles, VPC configuration, S3 bucket policy, external monitoring, etc.
+2. Access to any on-premise server that contains ePHI is restricted and monitored. _Currently `<Company Placeholder>` has no on-premise server that stores or processes ePHI._
+3. Access to ePHI in `<Company Placeholder>`'s production environments in the cloud is strictly prohibited. Access is protected via multiple layers of security controls such as IAM policies, restricted IAM roles, VPC configuration, S3 bucket policy, external monitoring, etc.
 4. Users may not download ePHI to any workstations or end-user computing devices.
 
 
 
 ## Platform Customer Access to Systems
 
-\<PlaceHolder> does not allow direct system access by customers. Access is only available through the Web UI or API interface, with valid authentication and authorization detailed in the Product Security, Architecture, and Security pages of the engineering wiki.
+`<Company Placeholder>` does not allow direct system access by customers. Access is only available through the Web UI or API interface, with valid authentication and authorization detailed in the Product Security, Architecture, and Security pages of the engineering wiki.
 
 
 
@@ -302,8 +302,8 @@ When root access is required for business or operational needs, a JIRA Issue is 
 
 ## Access Establishment, Modification and Termination
 
-1. Requests for access to \<PlaceHolder> Platform systems and applications is made formally using the following process:
-   1. An access request is created in JIRA through either the new employee onboarding request or a specific access request from \<PlaceHolder> Internal Support site.
+1. Requests for access to `<Company Placeholder>` Platform systems and applications is made formally using the following process:
+   1. An access request is created in JIRA through either the new employee onboarding request or a specific access request from `<Company Placeholder>` Internal Support site.
    2. The Security team will grant standard access to per job role as part of new employee onboarding. A standard set of accounts that are default for all employees are created as part of the onboarding process. This includes
       * User account for local system/laptop
       * Okta user in the Everyone group, and additional group based on role such as Development, IT, Security
@@ -320,8 +320,8 @@ When root access is required for business or operational needs, a JIRA Issue is 
       * All password exchanges must occur over an authenticated channel.
       * For on-premise systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP/AD group.
       * For cloud accounts, access grants are provisioned in Okta or using the access control mechanisms built into those services/applications.
-      * Account management for non-production systems may be delegated to a \<PlaceHolder> employee at the discretion of the Security Officer.
-2. Special access, including access to production environments, is not granted until receipt, review, and approval by the \<PlaceHolder> Security Officer.
+      * Account management for non-production systems may be delegated to a `<Company Placeholder>` employee at the discretion of the Security Officer.
+2. Special access, including access to production environments, is not granted until receipt, review, and approval by the `<Company Placeholder>` Security Officer.
 3. The request for access is retained for future reference.
 4. Temporary accounts are not used unless absolutely necessary for business purposes.
    * Accounts are reviewed every 90 days to ensure temporary accounts are not left unnecessarily.
@@ -341,7 +341,7 @@ IT Manager or Security team receives access termination requests in one of the f
 
 ## Access Reviews
 
-* All access to \<PlaceHolder> systems and services are reviewed and updated following the procedures specified in System Auditing to ensure proper authorizations are in place commensurate with job functions.
+* All access to `<Company Placeholder>` systems and services are reviewed and updated following the procedures specified in System Auditing to ensure proper authorizations are in place commensurate with job functions.
 * In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
 
 

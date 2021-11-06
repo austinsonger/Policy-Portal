@@ -10,11 +10,11 @@
 
 
 
-\<PlaceHolder> standardizes and automates configuration management through the use of automation scripts as well as documentation of all changes to production systems and networks. Automation tools (examples of which include Chef, Salt, and Terraform) automatically configure all \<PlaceHolder> systems according to established and tested policies, and are used as part of our Disaster Recovery plan and process.
+`<Company Placeholder>` standardizes and automates configuration management through the use of automation scripts as well as documentation of all changes to production systems and networks. Automation tools (examples of which include Chef, Salt, and Terraform) automatically configure all `<Company Placeholder>` systems according to established and tested policies, and are used as part of our Disaster Recovery plan and process.
 
 ## Policy Statements
 
-\<PlaceHolder> policy requires that:
+`<Company Placeholder>` policy requires that:
 
 (a) All production changes, including but not limited to software deployment, feature toggle enablement, network infrastructure changes, and access control authorization updates, must be invoked through approved change management process.
 
@@ -40,17 +40,17 @@
 4. Implementation of approved changes are only performed by authorized personnel.
 5. Tooling is used to generate an up to date system inventory.
    * All systems are categorized and labeled by their corresponding environment, such as _dev_, _test_, and _prod_.
-   * All systems are classified and labeled based on the data they store or process, according to \<PlaceHolder> data classification model.
+   * All systems are classified and labeled based on the data they store or process, according to `<Company Placeholder>` data classification model.
    * The Security team maintains automation which monitors all changes to IT assets, generates inventory lists, using automatic IT assets discovery, and services provided by each cloud provider.
-   * IT assets database is used to generate the diagrams and asset lists required by the Risk Assessment phase of \<PlaceHolder>'s Risk Management procedures
-   * \<PlaceHolder> Change Management process ensures that all asset inventory created by automation is reconciled against real changes to production systems. This process includes periodic manual audits and approvals.
+   * IT assets database is used to generate the diagrams and asset lists required by the Risk Assessment phase of `<Company Placeholder>`'s Risk Management procedures
+   * `<Company Placeholder>` Change Management process ensures that all asset inventory created by automation is reconciled against real changes to production systems. This process includes periodic manual audits and approvals.
    * During each change implementation, the change is reviewed and verified by the target asset owner as needed.
-6. \<PlaceHolder> uses the [Security Technical Implementation Guides (STIGs)](http://iase.disa.mil/stigs/) published by the Defense Information Systems Agency as a baseline for hardening systems.
+6. `<Company Placeholder>` uses the [Security Technical Implementation Guides (STIGs)](http://iase.disa.mil/stigs/) published by the Defense Information Systems Agency as a baseline for hardening systems.
    * Windows-based systems use a baseline Active Directory group policy configuration in conjunction with the DISA STIGs.
    * Linux-based systems use Red Hat Enterprise Linux STIG as a guideline for implementation.
    * EC2 instances in AWS are provisioned using only hardened and approved Amazon Machine Images (AMIs).
    * Docker containers are launched using only approved Docker images that have been through security testing.
-7. All IT assets in \<PlaceHolder> have time synchronized to a single authoritative source.
+7. All IT assets in `<Company Placeholder>` have time synchronized to a single authoritative source.
    * On-premise systems are configured to point to an internal NTP server.
    * The internal NTP server and all AWS instances are pointing to the same set of ntp.org servers.
 8. All frontend functionality (e.g. user dashboards and portals) is separated from backend (e.g. database and app servers) systems by being deployed on separate servers or containers.
@@ -83,7 +83,7 @@ Configuration auditing rules are created according to established baseline, appr
    * Network configuration for system.
    * Data volume encryption settings.
    * Intrusion detection and virus scanning software installed.
-7. The new system is fully promoted into production upon successful verification against corresponding \<PlaceHolder> standards and change request approvals.
+7. The new system is fully promoted into production upon successful verification against corresponding `<Company Placeholder>` standards and change request approvals.
 
 
 
@@ -154,7 +154,7 @@ In AWS, network controls are implemented using Virtual Private Clouds (VPCs) and
 
 **AWS Account Structure / Organization**
 
-\<PlaceHolder> maintains a single Organization in AWS, maintained in a top-level AWS account (master). Sub-accounts are connected that each hosts separate workloads and resources in its own sandboxed environment. The master account itself handles aggregated billing for all connected sub-accounts but does not host any workload, service or resource, with the exception of DNS records for \<PlaceHolder> root domain, using AWS Route53 service. DNS records for subdomains are maintained in the corresponding sub-accounts.
+`<Company Placeholder>` maintains a single Organization in AWS, maintained in a top-level AWS account (master). Sub-accounts are connected that each hosts separate workloads and resources in its own sandboxed environment. The master account itself handles aggregated billing for all connected sub-accounts but does not host any workload, service or resource, with the exception of DNS records for `<Company Placeholder>` root domain, using AWS Route53 service. DNS records for subdomains are maintained in the corresponding sub-accounts.
 
 Access to each account is funneled through our designated SSO provider, which establishes a trust relationship to a set of predefined roles in the master account. Once authenticated, a user then leverages AWS IAM Assume Role capability to switch to a sub-account to access services and resources.
 
@@ -199,7 +199,7 @@ SSO/IdP ── &lt;PlaceHolder&gt;-master
 
 **Infrastructure-as-Code**
 
-\<PlaceHolder> AWS environments and infrastructure are managed as code. Provisioning is accomplished using a set of automation scripts and Terraform code. Each new environment is created as a sub-account connected to `&lt;PlaceHolder&gt;-master`. The creation and provisioning of a new account follows the instructions documented in the Bootstrap a new AWS environment page of the development wiki.
+`<Company Placeholder>` AWS environments and infrastructure are managed as code. Provisioning is accomplished using a set of automation scripts and Terraform code. Each new environment is created as a sub-account connected to `&lt;PlaceHolder&gt;-master`. The creation and provisioning of a new account follows the instructions documented in the Bootstrap a new AWS environment page of the development wiki.
 
 
 
@@ -207,7 +207,7 @@ SSO/IdP ── &lt;PlaceHolder&gt;-master
 
 #### Automated change management for deploys to AWS
 
-The \<PlaceHolder> Continuous Delivery Pipeline automates creation and validation of change requests. This is done in a 3-step process:
+The `<Company Placeholder>` Continuous Delivery Pipeline automates creation and validation of change requests. This is done in a 3-step process:
 
 1.  **Create/Validate Change Request Ticket**
 
@@ -287,7 +287,7 @@ IMPORTANT
 
 **Local Systems**
 
-\<PlaceHolder> uses automated tooling to ensure systems are up-to-date with the latest security patches.
+`<Company Placeholder>` uses automated tooling to ensure systems are up-to-date with the latest security patches.
 
 * On local Linux and Windows systems, the unattended-upgrades tool is used to apply security patches in phases.
   * High Risk security patches are automatically applied as they are released
@@ -301,7 +301,7 @@ IMPORTANT
 
 **Cloud Resources**
 
-\<PlaceHolder> follows a "cattle-vs-pets" methodology to keep the resources in the cloud environments immutable and up-to-date with security patches.
+`<Company Placeholder>` follows a "cattle-vs-pets" methodology to keep the resources in the cloud environments immutable and up-to-date with security patches.
 
 * AWS Elastic Container Service (ECS) is used to dynamically manage container resources based on demand.
 * Engineering team builds security-approved AMI from the latest AWS optimized Amazon Machine Image (AMI) to include required security agent.
@@ -310,7 +310,7 @@ IMPORTANT
 
 **User Endpoints**
 
-\<PlaceHolder> requires auto-update for security patches to be enabled for all user endpoints, including laptops and workstations.
+`<Company Placeholder>` requires auto-update for security patches to be enabled for all user endpoints, including laptops and workstations.
 
 * The auto-update configuration and update status on all end-user systems are inspected by Security through either manual periodic audits or automated compliance auditing agents installed on the endpoints.
 
@@ -318,7 +318,7 @@ IMPORTANT
 
 #### Production Deploy / Code Promotion Processes
 
-In order to promote changes into Production, a valid and approved Change Request (CR) is required. It can be created in the \[Change Management System/Portal] which implements the \<PlaceHolder> Change Management workflow, using the Production Change Management (PRODCM) JIRA project to manage changes and approvals.
+In order to promote changes into Production, a valid and approved Change Request (CR) is required. It can be created in the \[Change Management System/Portal] which implements the `<Company Placeholder>` Change Management workflow, using the Production Change Management (PRODCM) JIRA project to manage changes and approvals.
 
 \[1]:
 
