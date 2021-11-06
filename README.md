@@ -12,15 +12,15 @@ description: 2021.09.15
 |       |      |             |           |         |
 |       |      |             |           |         |
 
-`Placeholder` is committed to protecting its employees, partners, clients/customers and the company itself from damaging acts either malicious or unintentional in nature. This includes implementation of policies, standards, controls and procedures to ensure the Confidentiality, Integrity, and Availability of systems and data according to their risk level.
+`<Company Placeholder>` is committed to protecting its employees, partners, clients/customers and the company itself from damaging acts either malicious or unintentional in nature. This includes implementation of policies, standards, controls and procedures to ensure the Confidentiality, Integrity, and Availability of systems and data according to their risk level.
 
-The `Placeholder`  security program and policies are developed on the principles that (1) security is everyone's responsibility and (2) self-management is best encouraged by rewarding the right behaviors.
+The `<Company Placeholder>`  security program and policies are developed on the principles that (1) security is everyone's responsibility and (2) self-management is best encouraged by rewarding the right behaviors.
 
 ### Information Security Program and Scope
 
-`Placeholder`  has developed a security program and implemented controls to meet and exceed all compliance requirements, including but not limited to HIPAA, PCI, NIST, SOC 2 Common Criteria and other applicable industry best practices.
+`<Company Placeholder>`  has developed a security program and implemented controls to meet and exceed all compliance requirements, including but not limited to HIPAA, PCI, NIST, SOC 2 Common Criteria and other applicable industry best practices.
 
-On a high level, `Placeholder` ’s information security program covers:
+On a high level, `<Company Placeholder>` ’s information security program covers:
 
 1. Inventory and protection of all critical assets
 2. Visibility into and the management of data lifecycle, from creation to retention to deletion
@@ -33,9 +33,9 @@ On a high level, `Placeholder` ’s information security program covers:
 9. Validated plan and practice for business continuity, disaster recovery, and emergency response
 10. End-user computing protection and awareness training
 
-More information about the `Placeholder`  Security and Privacy program can be found at \[] and https://example\[.]com/privacy.
+More information about the `<Company Placeholder>`  Security and Privacy program can be found at \[] and https://example\[.]com/privacy.
 
-The information security program and its policies and procedures cover all `Placeholder`  workforce members, including full-time and part-time employees in all job roles, temporary staff, contractors and subcontractors, volunteers, interns, managers, executives employees, and third parties.
+The information security program and its policies and procedures cover all `<Company Placeholder>`  workforce members, including full-time and part-time employees in all job roles, temporary staff, contractors and subcontractors, volunteers, interns, managers, executives employees, and third parties.
 
 The information security program is managed by dedicated security and compliance personnel, using Eramba as a GRC platform.
 
