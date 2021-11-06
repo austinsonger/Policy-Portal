@@ -357,11 +357,11 @@ Updated:
 
 We at `<Company Placeholder>` (`<Company Placeholder>` and our subsidiaries and affiliates) are committed to protecting your privacy. We and our partners use cookies and similar technologies on our services, including our websites and mobile applications (the "Services"). This Cookie Policy explains these technologies, why we use them, and the choices you have.
 
-By visiting or using our Services, you are consenting to us gathering and processing information (as defined in our [Privacy Policy](https://formassembly.com/privacy)) about you in accordance with this Cookie Policy.
+By visiting or using our Services, you are consenting to us gathering and processing information (as defined in our [Privacy Policy](https://example.com/privacy)) about you in accordance with this Cookie Policy.
 
 ### TECHNOLOGIES WE USE
 
-Like many Internet-enabled services, we use technologies that place small files/code on your device or browser for the purposes identified in our [Privacy Policy](https://formassembly.com/privacy), primarily to remember things about you so that we can provide you with a better experience.
+Like many Internet-enabled services, we use technologies that place small files/code on your device or browser for the purposes identified in our [Privacy Policy](https://example.com/privacy), primarily to remember things about you so that we can provide you with a better experience.
 
 **Cookies.** A cookie is a small data file stored on your browser or device. They may be served by the entity that operates the website you are visiting ("first-party cookies") or by other companies ("third-party cookies").
 
