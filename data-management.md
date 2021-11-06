@@ -18,7 +18,7 @@ Data backup is an important part of the day-to-day operations of \<PlaceHolder>.
 
 \<PlaceHolder> policy requires that
 
-(a) Data should be classified at time of creation or acquisition according to the [\<PlaceHolder> data classification model](https://apps.us.jupiterone.io/policies/data-mgmt/data-classification-model), by labeling or tagging the data.
+(a) Data should be classified at time of creation or acquisition according to the `<PlaceHolder>` data classification model, by labeling or tagging the data.
 
 (b) Maintain an up-to-date inventory and data flows mapping of all critical data.
 
@@ -30,7 +30,7 @@ Data backup is an important part of the day-to-day operations of \<PlaceHolder>.
 
 (f) Data retention period must be defined and comply with any and all applicable regulatory and contractual requirements. More specifically,
 
-* Data and records belonging to \<PlaceHolder> platform customer must be retained per \<PlaceHolder> product terms and conditions and/or specific contractual agreements.
+* Data and records belonging to `<PlaceHolder>` platform customer must be retained per `<PlaceHolder>` product terms and conditions and/or specific contractual agreements.
 
 (g) By default, all security documentation and audit trails are kept for a minimum of seven years, unless otherwise specified by \<PlaceHolder> data classification, specific regulations or contractual agreement.
 

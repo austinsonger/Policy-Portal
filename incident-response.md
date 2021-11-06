@@ -281,7 +281,7 @@ At least the following two special cases are considered when responding to an in
 
 When a data breach occurs that involves unsecured PHI or ePHI, breach notifications must be performed according to HIPAA regulation requirements, including each individual impacted and as applicable, the covered entity and OCR (see Appendix for additional details).
 
-If the breach or potential breach impacts PHI/ePHI that belongs to a Covered Entity to which \<PlaceHolder> is a Business Associate of, the IRT and management team will inform the Covered Entity per the timeframe and contact method established in the Business Associate Agreement or as described in [§Breach Notification](https://apps.us.jupiterone.io/policies/breach/). HIPAA §164.410(b)
+If the breach or potential breach impacts PHI/ePHI that belongs to a Covered Entity to which \<PlaceHolder> is a Business Associate of, the IRT and management team will inform the Covered Entity per the timeframe and contact method established in the Business Associate Agreement or as described in §Breach Notification. HIPAA §164.410(b)
 
 **Criminal Activities:**
 

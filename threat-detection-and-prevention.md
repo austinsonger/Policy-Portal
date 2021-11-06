@@ -26,8 +26,8 @@ In order to preserve the integrity of data that \<PlaceHolder> stores, processes
    * Next generation endpoint protection agent may be used as an equivalent solution.
    * Hosts are scanned continuously for malicious binaries in critical system paths. Additionally, if supported, the agent is set to to scan system every 2 hours and at reboot to assure no malware is present.
    * The malware signature database is kept up to date, changes are pushed continuously.
-   * Logs of virus scans and alerts are maintained according to the requirements outlined in [System Auditing](https://apps.us.jupiterone.io/policies/system-audit/).
-2. Detected malware is evaluated and removed following the established [incident response process](https://apps.us.jupiterone.io/policies/ir/).
+   * Logs of virus scans and alerts are maintained according to the requirements outlined in System Auditing.
+2. Detected malware is evaluated and removed following the established incident response process.
 3. All systems are to only be used for \<PlaceHolder> business needs.
 
 

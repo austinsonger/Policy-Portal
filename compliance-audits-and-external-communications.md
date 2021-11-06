@@ -42,14 +42,14 @@ FA, at its sole discretion, shares audit reports, including any Corrective Actio
 
 The following process is used to request audit reports:
 
-1. A request may be sent by email to [compliance@FormAssembly](mailto:compliance@FormAssembly) or by submitting a request via FA Internal Support Portal or Email. In the request, please specify the type of report being requested and any required timelines for the report.
+1. A request may be sent by email to compliance@example.com or by submitting a request via FA Internal Support Portal or Email. In the request, please specify the type of report being requested and any required timelines for the report.
 2. An Issue with the details of the request into the FA Security Project on JIRA, which is used to track requests status and outcomes.
 3. FA security team will confirm if a current NDA is in place with the party requesting the audit report. If there is no NDA in place, FA will send one for execution.
 4. Once it has been confirmed that an NDA is executed, FA staff will move the JIRA Issue to "Under Review".
 5. The FA Security Officer or Privacy Officer must Approve or Reject the Issue. If the Issue is rejected, FA will notify the requesting party that we cannot share the requested report.
 6. If the Issue has been Approved, FA will send the customer the requested audit report and complete the JIRA Issue for the request.
 
-See detailed policy and procedures in [Breach Notification](https://apps.us.jupiterone.io/policies/breach/)
+See detailed policy and procedures in Breach Notification
 
 ## **External Audits of Information Access and Activity**
 
@@ -69,13 +69,13 @@ Whenever possible, a third party auditing vendor should not be providing the org
 Direct all other communication requests to one of the following:
 
 * For incident reporting, vulnerability disclosure and other security related inquiries:
-  * [security@FormAssembly](mailto:security@FormAssembly)
+  * `<Placeholder>`
   * <>
 * For privacy concerns, including report of violation:
-  * [privacy@FormAssembly](mailto:privacy@FormAssembly)
-  * [https://formassembly.com/privacy](https://formassembly.com/privacy)
+  * `<Placeholder>`
+  * `<Placeholder>`
 * For all compliance related issues, including request of audit reports:
-  * [compliance@FormAssembly](mailto:compliance@FormAssembly)
+  * `<Placeholder>`
 
 
 

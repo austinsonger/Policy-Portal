@@ -10,7 +10,7 @@
 
 You can't protect what you can't see. Therefore, it is imperative for \<PlaceHolder> to maintain an accurate and up-to-date inventory of both its physical and digital assets.
 
-More details on data inventory and data lifecycle management is documented separately in [Data Management](https://apps.us.jupiterone.io/policies/data-mgmt/).
+More details on data inventory and data lifecycle management is documented separately in Data Management.
 
 ## Policy Statements
 

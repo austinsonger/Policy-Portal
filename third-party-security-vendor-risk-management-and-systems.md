@@ -44,15 +44,15 @@ A vendor technology risk (VTR) assessment is conducted using Google VSAQ, in the
 6. Reviewer follows up with vendor contact as needed.
 7. Reviewer facilities discussion with business owner to determine if the risk is acceptable. Vendor remediation may be required depending on the results.
 
-A list of [approved vendors / contractors](https://apps.us.jupiterone.io/policies/approved-vendors/) is maintained by the Security and Operations teams.
+A list of approved vendors / contractors is maintained by the Security and Operations teams.
 
 #### Vendor Contractual Agreements
 
-**HIPAA.** If the vendor needs access to PHI/ePHI, the vendor must be HIPAA compliant and a [Business Associate Agreement (BAA)](https://apps.us.jupiterone.io/policies/hipaa-baa/) is required.
+**HIPAA.** If the vendor needs access to PHI/ePHI, the vendor must be HIPAA compliant and a Business Associate Agreement (BAA) is required.
 
 **SLA for Service Providers.** For network and infrastructure service providers that support production and/or critical operations at \<PlaceHolder>, a Service Level Agreement (SLA) is defined and included in the service contract.
 
-As appropriate, the executed agreement(s) are linked or attached to the vendor on the [approved vendors list](https://apps.us.jupiterone.io/policies/approved-vendors/).
+As appropriate, the executed agreement(s) are linked or attached to the vendor on the approved vendors list.
 
 #### Monitoring Vendor Risks
 

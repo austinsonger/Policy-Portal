@@ -18,7 +18,7 @@
 
 (a) All media, including mobile and removable media, storing \<PlaceHolder> company data must be encrypted.
 
-(b) Critical data as defined in [\<PlaceHolder> data classification model §data-management](https://apps.us.jupiterone.io/policies/data-mgmt/) may not be stored on mobile devices or removable media such as USB flash drives.
+(b) Critical data as defined in \<PlaceHolder> data classification model §data-management may not be stored on mobile devices or removable media such as USB flash drives.
 
 (c) All destruction/disposal of sensitive data storage media will be done in accordance with federal and state laws and regulations and pursuant to the \<PlaceHolder>'s written retention policy/schedule.
 

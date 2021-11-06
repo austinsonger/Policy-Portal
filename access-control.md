@@ -138,16 +138,16 @@ EXCEPTIONS
 
 1. All system and application passwords must be stored and transmitted securely.
    * Where possible, passwords should be stored in a hashed format using a salted cryptographic hash function (SHA-256 or stronger NIST compliant standard).
-   * Passwords that must be stored in non-hashed format must be encrypted at rest pursuant to the requirements in [Data Protection](https://apps.us.jupiterone.io/policies/data-protection/).
-   * Transmitted passwords must be encrypted in flight pursuant to the requirements in [Data Protection](https://apps.us.jupiterone.io/policies/data-protection/).
+   * Passwords that must be stored in non-hashed format must be encrypted at rest pursuant to the requirements in Data Protection.
+   * Transmitted passwords must be encrypted in flight pursuant to the requirements in Data Protection.
 2. Each information system automatically requires users to change passwords at a pre-determined interval as determined by the system owner and/or Security, based on the criticality and sensitivity of the data contained within the network, system, application, and/or database.
-3. Passwords are inactivated immediately upon an employee's termination (refer to the [Employee Termination Procedures in HR policy](https://apps.us.jupiterone.io/policies/hr/)).
+3. Passwords are inactivated immediately upon an employee's termination (refer to the Employee Termination Procedures in HR policy).
 4. All default system, application, and Vendor/Partner-provided passwords are changed before deployment to production.
 5. Upon initial login, users must change any passwords that were automatically generated for them.
 6. Password change methods must use a confirmation method to correct for user input errors.
 7. All passwords used in configuration scripts are secured and encrypted.
-8. If a user believes their user ID has been compromised, they are required to immediately report the incident to the [Security team](mailto:security@Example).
-9. In cases where a user has forgotten their password, password reset procedures provided by the IdP shall be followed. The exact process depends on the system or application. If help is needed, users shall contact [IT Support](mailto:itsupport@Example) or [Security](mailto:security@Example)
+8. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security team.
+9. In cases where a user has forgotten their password, password reset procedures provided by the IdP shall be followed. The exact process depends on the system or application. If help is needed, users shall contact IT Support or Security
 10. An approved password manager is used for to store or share non-critical business application passwords that are not integrated with our primary IdP through SSO.
     * The password manager locally encrypts the password vault with the user's master password before synchronizing to the cloud.
     * The master password must follow the password requirements listed above.
@@ -341,7 +341,7 @@ IT Manager or Security team receives access termination requests in one of the f
 
 ## Access Reviews
 
-* All access to \<PlaceHolder> systems and services are reviewed and updated following the procedures specified in [System Auditing](https://apps.us.jupiterone.io/policies/system-audit/) to ensure proper authorizations are in place commensurate with job functions.
+* All access to \<PlaceHolder> systems and services are reviewed and updated following the procedures specified in System Auditing to ensure proper authorizations are in place commensurate with job functions.
 * In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
 
 

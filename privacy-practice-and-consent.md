@@ -22,11 +22,11 @@
 
 #### Privacy Policy
 
-Current Privacy Policy is published at [https://formassembly.com/privacy](https://formassembly.com/privacy)
+Current Privacy Policy is published at https://example.com/privacy
 
 #### Notice of Privacy Practice
 
-Current Notice of Privacy Practice (NPP) is published at [https://formassembly.com/privacy](https://formassembly.com/privacy)
+Current Notice of Privacy Practice (NPP) is published at https://example.com/privacy
 
 #### Platform Use Terms and Consent
 

@@ -123,7 +123,7 @@ This process keeps set of differences between the development environment and th
 
 Features may be released via code deployments or features may be enabled in production at an appropriate time (dark launching). Feature toggle enablement in production is gated by the same change management ticket (JIRA) that follows the software roll-out approval process. Feature toggle enablement in production can have a few more dependencies than code. Those dependencies include things like external documentation, early access programs, and internal playbooks for supporting the feature.
 
-**Detailed process and procedures for code promotion and production release:** See [Configuration and Change Management](https://apps.us.jupiterone.io/policies/ccm/).
+**Detailed process and procedures for code promotion and production release:** See Configuration and Change Management.
 
 
 
@@ -133,7 +133,7 @@ Features may be released via code deployments or features may be enabled in prod
 
 \<PlaceHolder> development/engineering team uses Github Enterprise for source code management. Access to Github Enterprise and its configuration standards include:
 
-* All developers must authenticate to gain access to Github Enterprise and code repos hosted on Github Enterprise according to standards and procedures defined in the [Access Policy](https://apps.us.jupiterone.io/policies/access/):
+* All developers must authenticate to gain access to Github Enterprise and code repos hosted on Github Enterprise according to standards and procedures defined in the Access Policy:
   * Access control to the Github Enterprise web interface must be enabled, via SSO and/or MFA if applicable
   * SSH public/private key access may be used for command line or `git` access to the code repos
 * All code repos in Github Enterprise follow these configuration standards:
@@ -170,7 +170,7 @@ All software code must complete a set of security scans/testing prior to being d
 
 Pre-production testing is performed with nonproduction data in nonproduction environments. Health checks are performed regularly or automated in production.
 
-Software vulnerability identified through any of the above processes shall be reported and tracked following \<PlaceHolder> Vulnerability Management process as defined in the [Vulnerability Management Policy and Procedures](https://apps.us.jupiterone.io/policies/vuln-mgmt/).
+Software vulnerability identified through any of the above processes shall be reported and tracked following \<PlaceHolder> Vulnerability Management process as defined in the Vulnerability Management Policy and Procedures.
 
 
 

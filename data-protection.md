@@ -38,7 +38,7 @@ Critical, confidential and internal data will be tagged upon creation, if taggin
 
 Critical and confidential data is always stored and transmitted securely, using approved encryption standards. More details are specified in \<PlaceHolder>’s Data Classification and Handling document.
 
-All IT systems that process and store sensitive data follow the provisioning process, configuration, change management, patching and anti-malware standards as defined in [Configuration and Change Management document](https://apps.us.jupiterone.io/policies/ccm/).
+All IT systems that process and store sensitive data follow the provisioning process, configuration, change management, patching and anti-malware standards as defined in Configuration and Change Management document.
 
 **Customer/Production Data Protection**
 
@@ -49,7 +49,7 @@ All \<PlaceHolder> employees, systems, and resources adhere to the following sta
 1. Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
 2. Ensure that confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
 3. Ensure \<PlaceHolder> Customer Production Data is segmented and only accessible to Customer authorized to access data.
-4. All Production Data at rest is stored on encrypted volumes using encryption keys managed by \<PlaceHolder>. Encryption at rest is ensured through the use of automated deployment scripts referenced in [Configuration and Change Management](https://apps.us.jupiterone.io/policies/ccm/).
+4. All Production Data at rest is stored on encrypted volumes using encryption keys managed by \<PlaceHolder>. Encryption at rest is ensured through the use of automated deployment scripts referenced in Configuration and Change Management.
 5. Volume encryption keys and machines that generate volume encryption keys are protected from unauthorized access. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
 6. Encrypted volumes use approved cipher algorithms, key strength, and key management process as defined in §12.3.1 above.
 7. Raid volume drives are individually encrypted and assembled on boot requiring a manual input of the key to mount the encrypted volume.
@@ -64,7 +64,7 @@ Customer data is logically separated at the database/datastore level using a uni
 
 **Backup and Recovery**
 
-For details on the backup and recovery process, see controls and procedures defined in [Data Management](https://apps.us.jupiterone.io/policies/data-mgmt/).
+For details on the backup and recovery process, see controls and procedures defined in Data Management.
 
 **Monitoring**
 
@@ -109,7 +109,7 @@ Restricted and sensitive data is not allowed to be sent over electronic end-user
 
 Data in Use, sometimes known as Data in Process, refers to active data being processed by systems and applications which is typically stored in a non-persistent digital state such as in computer random-access memory (RAM), CPU caches, or CPU registers.
 
-Protection of data in use relies on application layer controls and system access controls. See the [Production Security / SDLC](https://apps.us.jupiterone.io/policies/sdlc/) and [Access](https://apps.us.jupiterone.io/policies/access/) sections for details.
+Protection of data in use relies on application layer controls and system access controls. See the Production Security / SDLC and Access sections for details.
 
 \<PlaceHolder> applications implement logical account-level data segregation to protect data in a multi-tenancy deployment. In addition, \<PlaceHolder> applications may incorporate advanced security features such as Runtime Application Self Protection (RASP) modules and Attribute Based Access Control (ABAC) for protection of data in use.
 
