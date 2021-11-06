@@ -39,9 +39,6 @@ In particular, with Zero Trust there is no default trust for any entity — incl
 
 ```
 SUMMARY
-```
-
-```
 * No internal network. (Almost) 100% cloud.
 * Fully segregated with Granular policy enforcements.
 * Individually secured devices. No production access by default.
@@ -53,9 +50,6 @@ We extend the zero-trust security model with a “Minimal Infrastructure” appr
 
 ```
 SUMMARY
-```
-
-```
 * No direct administrative or broad network connectivity into production.
 * Processes are short-lived and killed after use.
 * Minimal persistent attack surface making it virtually impenetrable.
@@ -69,7 +63,6 @@ In other words, compromise of any single system or user or credential, should no
 
 ```
 SUMMARY
-
 * Need-based access control for both employees and computing services.
 * Access to critical systems and resources are closed by default, granted on demand.
 * Protected by strong multi-factor authentication.
@@ -87,7 +80,6 @@ Changes to our infrastructure (database schema changes, storage buckets, load ba
 
 ```
 SUMMARY
-
 * Infrastructure as code with active protection.
 * Automated security scans and full traceability from code commit to production.
 * “Hands-free” deployment ensures each build is free from human error or malicious contamination.
@@ -101,7 +93,6 @@ We are proud to offer our customers data storage peace of mind with a money-back
 
 ```
 SUMMARY
-
 * Data is safe both at rest and in transit, using strong encryption, access control and key management.
 * No internal user access is allowed to customer data in production.
 ```
@@ -112,7 +103,6 @@ We all know by now that "Passw0rd" makes a terrible password. Access control is 
 
 ```
 SUMMARY
-
 * OAuth 2.0, OpenID Connect, SAML for customer authentication and single sign-on.
 * Multi-factor authentication.
 * Fine-grain attribute-based or role-based authorization.
@@ -132,7 +122,6 @@ Additionally, `<Company Placeholder>`  security team will actively monitor threa
 
 ```
 SUMMARY
-
 * All environments are monitored; All events are logged; All alerts are analyzed; All assets are tracked.
 * No privileged access without prior approval or full auditing.
 * We deploy monitoring redundancy to “watch the watchers”.
@@ -146,7 +135,6 @@ Automation makes it truly possible to centralize security operations, including 
 
 ```
 SUMMARY
-
 * API-driven cloud-native security fabric that
     - centrally monitors security events,
     - visualizes risk management,
