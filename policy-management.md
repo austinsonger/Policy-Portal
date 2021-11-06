@@ -94,7 +94,7 @@ If sequencing numbers are included in the policy headings:
    2. The Security Officer or the Privacy Officer is assigned to review the policy change request.
    3. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
    4. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
-   5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel using `<Company Placeholder>` 's [change management process](https://apps.us.jupiterone.io/policies/ccm/).
+   5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel using `<Company Placeholder>` 's [change management process]().
    6. If the change results in a new version instead of a new revision (see §3.3.1 for definitions), the current version of the policy document(s) must be saved to archive under the corresponding version number prior to the new policy being adopted/published and prior to merging the pull request containing the changes. This allows easy reference to previous versions if necessary.
 
 ```

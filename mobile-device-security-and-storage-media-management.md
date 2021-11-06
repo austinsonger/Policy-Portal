@@ -67,7 +67,7 @@ Usage of USB flash drives for temporary transfer of confidential and critical da
 
 The end-user computing devices are self managed. Each `<Company Placeholder>` employee is responsible to
 
-* configure their laptop/workstation to meeting the [configuration and management requirements](https://apps.us.jupiterone.io/policies/ccm/); and
+* configure their laptop/workstation to meeting the [configuration and management requirements](); and
 * ensure the latest security patches are installed or auto-update is enabled.
 
 IT and Security provides automated scripts for end-user system configurations and/or technical assistance as needed. Such configurations are audited daily using **Jamf** centrally managed by the Security team.

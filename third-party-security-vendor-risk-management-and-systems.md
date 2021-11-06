@@ -66,7 +66,7 @@ If the vendor is a service provider, the DevOps team monitors the service status
 
 #### Software and Systems Acquisition Process
 
-`<Company Placeholder>` Security maintains a list of [pre-approved business software](https://apps.us.jupiterone.io/policies/approved-software/) and a list of [approved vendors / contractors](https://apps.us.jupiterone.io/policies/approved-vendors/).
+`<Company Placeholder>` Security maintains a list of [pre-approved business software]() and a list of [approved vendors / contractors]().
 
 If additional commercial software, hardware system, or cloud services is needed, a request should be submitted through `<Company Placeholder>` internal service desk. This will trigger the approval by manager/security and procurement process.
 

@@ -332,9 +332,9 @@ When root access is required for business or operational needs, a JIRA Issue is 
 
 IT Manager or Security team receives access termination requests in one of the following conditions and processes it accordingly:
 
-* Employee existing/termination, as defined by the process in [HR & Employee Security](https://apps.us.jupiterone.io/policies/hr/);
+* Employee existing/termination, as defined by the process in [HR & Employee Security]();
 * Employee access to a system is no longer required as a result of job role change or similar event, in which case a access termination request may be submitted by the employee or his/her manager via the Internal Help portal or an email request to Security team;
-* As the result of a Access Review, as defined in [System Auditing](https://apps.us.jupiterone.io/policies/system-audit/).
+* As the result of a Access Review, as defined in [System Auditing]().
 * Non-standard access is revoked by default after 30 days of inactivity, unless an exception/extension is requested and approved.
 
 

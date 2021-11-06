@@ -351,7 +351,7 @@ In the event of an emergency, the person or team on call is notified. This may i
 If an emergency change must be made, such as patching of a zero-day security vulnerability or recovering from a system downtime, and that the standard change management process cannot be followed due to time constraint or personnel availability or other unforeseen issues, the change can be made by:
 
 * **Notification:** The Engineering Lead, Security Lead, and/or IT Lead must be notified by email, Slack, or phone call prior to the change . Depending on the nature of the emergency, the leads may choose to inform members of the executive team.
-* **Access and Execution:** Manually access of the production system or manual deploy of software, using one of the following access mechanisms as defined in [Access Control policy and procedures](https://apps.us.jupiterone.io/policies/access/):
+* **Access and Execution:** Manually access of the production system or manual deploy of software, using one of the following access mechanisms as defined in [Access Control policy and procedures]():
   1. Support/Troubleshooting access
   2. Root account or root user access
   3. Local system access (for on-premise environment)

@@ -185,4 +185,4 @@ Production data is to be synchronized across multiple S3 buckets in AWS. Additio
 
 `<Company Placeholder>` assumes that in the worst-case scenario, that one of the production environments suffers a complete data loss, the account will be reconstructed from code, and the data restored from Glacier that is hosted within a different AWS account and geolocation.
 
-Recovery of production Environments and data should follow the procedures listed above and in [Data Management - Backup and Recovery](https://apps.us.jupiterone.io/policies/data-mgmt/cp-data-backup)
+Recovery of production Environments and data should follow the procedures listed above and in [Data Management - Backup and Recovery]()
