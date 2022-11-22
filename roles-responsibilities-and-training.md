@@ -1,4 +1,4 @@
-# Roles, Responsibilities and Training
+# 02. Roles, Responsibilities and Training (RRT)
 
 #### Applicable Standards
 
@@ -10,21 +10,21 @@
 
 ## Roles, Responsibilities and Training
 
-`2021.09.15`
+``
 
-Security and compliance is everyone's responsibility. `<Company Placeholder>`  is committed to ensuring all workforce members actively address security and compliance in their roles. Statistically, cybersecurity breaches typically start with compromise of end-user computing devices, social engineering, human error or insider threat. Therefore, users are the first line of defense and yet usually the weakest link. As such, training is imperative to assuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
+Security and compliance is everyone's responsibility. `<Company Placeholder>` is committed to ensuring all workforce members actively address security and compliance in their roles. Statistically, cybersecurity breaches typically start with compromise of end-user computing devices, social engineering, human error or insider threat. Therefore, users are the first line of defense and yet usually the weakest link. As such, training is imperative to assuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
 
 In this and all related policy documents, the term "employees" and "workforce members" may be used interchangeably to include all full-time and part-time employees in all job roles, contractors and subcontractors, volunteers, interns, managers and executives at `<Company Placeholder>` .
 
 The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, testing, implementation, training, and oversight of all activities pertaining to `<Company Placeholder>` 's efforts to be compliant with the applicable security and compliance regulations and industry best practices. The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of critical and sensitive data. The Security and Privacy Officer is appointed by and reports to the Board of Directors and/or the CEO.
 
-`<Company Placeholder>`  has appointed John as the Security Officer and Doe as the Privacy Officer.
+`<Company Placeholder>` has appointed John as the Security Officer and Doe as the Privacy Officer.
 
 An official **Security Committee** has been formed, chaired by the Security Officer, and represented by the select members of the senior leadership team (Security Officer).
 
 ### Policy Statements
 
-`<Company Placeholder>`  policy requires that:
+`<Company Placeholder>` policy requires that:
 
 (a) A Security and Privacy Officer \[164.308(a)(2)] must be appointed to assist in maintaining and enforcing safeguards towards security, compliance, and privacy.
 
@@ -45,7 +45,7 @@ An official **Security Committee** has been formed, chaired by the Security Offi
 
 ## Assignment of Roles and the Security Committee
 
-`<Company Placeholder>`  has appointed John as the Security Officer and Doe as the Privacy Officer.
+`<Company Placeholder>` has appointed John as the Security Officer and Doe as the Privacy Officer.
 
 The security committee is chaired by the Security Officer, and represented by the select members of the senior leadership team, including Security Officer, in addition to the Security and Privacy Officer.
 
@@ -77,11 +77,9 @@ Although the Security Officer is responsible for implementing and overseeing all
 
 ### **Segregation of Duties**
 
-`<Company Placeholder>`  has dedicated team/personnel assigned the job function of security and compliance. Segregation of duties are achieved via a combination of assignment of roles and responsibilities to different personnel, and automation enforcement for software-defined processes.
+`<Company Placeholder>` has dedicated team/personnel assigned the job function of security and compliance. Segregation of duties are achieved via a combination of assignment of roles and responsibilities to different personnel, and automation enforcement for software-defined processes.
 
 Checks and balances are ensured via such segregation of duties and related review/approval processes. When applicable, reviews and approvals must be obtained from designated personnel separate from the individual performing the work.
-
-
 
 ## Policy and Compliance Training
 
@@ -97,7 +95,7 @@ Checks and balances are ensured via such segregation of duties and related revie
    3. HIPAA Privacy, Security, and Breach notification rules;
    4. PCI DSS requirements;
    5. Risk Management procedures and documentation;
-   6. Auditing. `<Company Placeholder>`  may monitor access and activities of all users;
+   6. Auditing. `<Company Placeholder>` may monitor access and activities of all users;
    7. Workstations may only be used to perform assigned job responsibilities;
    8. Users may not download software onto `<Company Placeholder>` 's workstations and/or systems without prior approval from the Security Officer;
    9. Users are required to report malicious software to the Security Officer immediately;
@@ -119,7 +117,7 @@ Checks and balances are ensured via such segregation of duties and related revie
 
 ### Ongoing Awareness Training
 
-`<Company Placeholder>`  leverages KnowBe4 to deliver innovative, fun and engaging security awareness contents to all employees monthly. This security awareness training shall include modules on
+`<Company Placeholder>` leverages KnowBe4 to deliver innovative, fun and engaging security awareness contents to all employees monthly. This security awareness training shall include modules on
 
 * phishing,
 * social engineering,
@@ -133,13 +131,13 @@ Progress is tracked individually for each employee and reported on KnowBe4's clo
 
 ### HIPAA Awareness Training
 
-`<Company Placeholder>`  requires all employees to take a HIPAA awareness training within 30 days of onboarding and annually thereafter. The training record is captured within the HR record and/or the learning system KnowBe4.
+`<Company Placeholder>` requires all employees to take a HIPAA awareness training within 30 days of onboarding and annually thereafter. The training record is captured within the HR record and/or the learning system KnowBe4.
 
 ### Internal Business Communications
 
 **Company-wide updates**
 
-`<Company Placeholder>`  holds a company-wide roundtable at least quarterly to communicate updates across all aspects of business operations, performance and objectives.
+`<Company Placeholder>` holds a company-wide roundtable at least quarterly to communicate updates across all aspects of business operations, performance and objectives.
 
 Senior management sends out additional company-wide announcements as appropriate through pre-established internal communication channels such as email or messaging (e.g. Slack #general channel).
 
@@ -148,34 +146,3 @@ Senior management sends out additional company-wide announcements as appropriate
 Regular performance and status updates are communicated by each department, functional team, and/or designated individuals through pre-established channels.
 
 Additionally, each project team maintains team updates at their own committed cadence and channel -- for example, daily development standups/scrum or weekly team meetings.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
